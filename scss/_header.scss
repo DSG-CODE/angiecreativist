@@ -1,0 +1,147 @@
+.header-inicio {
+    height: 100vh;
+    position: relative;
+
+    video {
+        width: 50%;
+    }
+
+    .contenedor-scroll {
+        position: absolute;
+        z-index: 99;
+        bottom: 10%;
+       
+
+        // BTN animado para Scroll
+        .scroll {
+            animation: bounce_1966 3.6s ease infinite;
+            transform-origin: 50% 50%;
+        }
+
+        @keyframes bounce_1966 {
+            0% {
+                transform: translateY(0)
+            }
+
+            5.55556% {
+                transform: translateY(0)
+            }
+
+            11.11111% {
+                transform: translateY(0)
+            }
+
+            22.22222% {
+                transform: translateY(-15px)
+            }
+
+            27.77778% {
+                transform: translateY(0)
+            }
+
+            33.33333% {
+                transform: translateY(-15px)
+            }
+
+            44.44444% {
+                transform: translateY(0)
+            }
+
+            100% {
+                transform: translateY(0)
+            }
+        }
+
+        // Termina BTN Scroll
+    }
+
+}
+
+.header {
+    height: 100vh;
+    background: black;
+    position: relative;
+
+    .contenedor-scroll {
+        position: absolute;
+        z-index: 99;
+        bottom: 10%;
+        left: 48%;
+
+        // BTN animado para Scroll
+        .scroll {
+            animation: bounce_1966 3.6s ease infinite;
+            transform-origin: 50% 50%;
+        }
+
+        @keyframes bounce_1966 {
+            0% {
+                transform: translateY(0)
+            }
+
+            5.55556% {
+                transform: translateY(0)
+            }
+
+            11.11111% {
+                transform: translateY(0)
+            }
+
+            22.22222% {
+                transform: translateY(-15px)
+            }
+
+            27.77778% {
+                transform: translateY(0)
+            }
+
+            33.33333% {
+                transform: translateY(-15px)
+            }
+
+            44.44444% {
+                transform: translateY(0)
+            }
+
+            100% {
+                transform: translateY(0)
+            }
+        }
+
+        // Termina BTN Scroll
+    }
+
+    .bg-video {
+        position: absolute;
+        z-index: 80;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        background: #fff;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+    }
+}
+
+//MediaQuery video inicial
+@media only screen and(max-width:1280px){
+    .header-inicio{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        video {
+            width: 60%;
+        }
+    }
+}
+
+@media only screen and(max-width:1080px){
+    .header-inicio{
+        video {
+            width: 90%;
+        }
+    }
+}

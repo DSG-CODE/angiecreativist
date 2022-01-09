@@ -1,0 +1,249 @@
+@import "variables";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background: $color-light;
+    position: relative;
+    &::-webkit-scrollbar{width: 15px;}
+    &::-webkit-scrollbar-thumb{
+        background: $color-primary;
+        border-radius: 20px;
+        &:hover{
+            background: $color-secundary; 
+        }
+    }
+}
+
+.modal{
+    &::-webkit-scrollbar{width: 15px;}
+    &::-webkit-scrollbar-thumb{
+        background: $color-secundary;
+        border-radius: 20px;
+    } 
+    overflow-x: hidden;
+}
+
+img {
+    pointer-events: none;
+}
+
+//Evitar arrastrar la imágen y guardarla
+
+p {
+    color: $color-black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 5rem;
+    font-family: "IntroW01-BlackCaps";
+    color: $color-light;
+    line-height: 5rem;
+}
+
+h2 {
+    color: $color-light;
+    font-family: "Seravek-ExtraLightItalic";
+}
+
+h3 {
+    color: $color-primary;
+    font-family: "IntroW01-BlackCaps";
+    font-size: 50px;
+
+    a {
+        color: $color-primary;
+        font-family: "Seravek-ExtraLightItalic";
+        transition: all .8s ease;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+}
+
+.p-primary{
+    color: $color-primary;
+    font-family: "Seravek";
+    font-size: 16px;
+}
+
+.hover-primario {
+    a {
+        color: $color-primary;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+}
+
+.card {
+    background: $color-light;
+
+    .card-title {
+        color: $color-primary;
+        font-family: "Seravek-Bold"
+    }
+
+    p {
+        color: $color-black;
+        font-family: "Seravek";
+    }
+
+    a {
+        color: $color-primary;
+        font-size: 14px;
+        transition: all .8s ease;
+        text-decoration: none;
+    }
+
+    a:hover {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+a.more-info-black {
+    text-decoration: none;
+
+    &:hover {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+.inicio {
+    height: 100vh;
+    position: relative;
+
+    .bg-video {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        background: #fff;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+    }
+
+    .inicio-Contenido1 {
+        position: absolute;
+        top: 65%;
+        width: 50%;
+    }
+
+    .inicio-Contenido2 {
+        position: absolute;
+        top: 77%;
+        width: 50%;
+    }
+}
+
+.section-clientes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    img {
+        width: 25%;
+        height: 10%;
+    }
+}
+
+.about {
+    background: $color-primary;
+    height: 100vh;
+}
+
+@media only screen and(max-width:1200px) {
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+}
+
+@media only screen and(max-width:1000px) {
+    .blog-container {
+        height: auto;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .section-clientes{
+        img{
+            width: 50%;
+            height: 25%;
+        }
+    }
+
+}
+
+@media only screen and(max-width:700px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+
+    .section-clientes {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+        img {
+            width: 70%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and(max-width:699px) {
+    h1 {
+        font-size: 2.6rem;
+        line-height: 2.5rem;
+    }
+
+    .inicio {
+        .inicio-Contenido1 {
+            width: 70%;
+        }
+
+        .inicio-Contenido2 {
+            width: 70%;
+        }
+    }
+}
+
+.btnClose {
+    border-radius: 50%;
+    background: $color-primary;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: $color-light;
+
+    &:hover {
+        width: 60px;
+        height: 60px;
+        color: $color-black;
+    }
+}

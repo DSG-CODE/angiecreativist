@@ -1,0 +1,68 @@
+@import "variables";
+
+#sidebar {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    background: $color-black;
+    transition: all .3s ease;
+    z-index: 100;
+    right: -60%;
+
+    ul li {
+        color: rgba(230, 230, 230, .9);
+        list-style: none;
+        padding: 15px 10px;
+
+        font-size: 1.7em;
+        font-family: "IntroW01-BlackCaps";
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition: all .2s ease;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .logo {
+        width: 2em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .toggle-btn {
+        position: absolute;
+        left: -40px;
+
+        cursor: pointer;
+
+        span {
+            display: block;
+            width: 40px;
+            text-align: center;
+            font-size: 30px;
+            background: $color-primary;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+        }
+    }
+}
+
+#sidebar.activemovil {
+    right: 0px;
+}
+
+@media screen and (max-width:450px){
+    #sidebar{
+        ul li{
+            font-size: 1em;
+        }
+    }
+}

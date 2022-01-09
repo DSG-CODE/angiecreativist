@@ -1,0 +1,38 @@
+@import "variables";
+
+.contact{
+    color: white;
+    background:$color-secundary;
+    h4{
+        font-family: "Seravek-Bold";
+        font-size: 30px;
+    }
+
+    a{
+        padding: 15px 30px;
+        background: $color-primary;
+        color: white;
+        width: 30%;
+        transition: all .8s ease;
+        font-family: "Seravek";
+        border-radius: 30px;
+    }
+    a:hover{
+        font-size: 22px;
+        color: $color-light;
+    }
+
+    @media only screen and (max-width:800px){
+        a{
+        padding: 10px;
+        background: $color-primary;
+        color: white;
+        width: 50%;
+        transition: all .8s ease;
+        }
+    } 
+
+    p{
+        font-family: "Seravek";
+    }
+}

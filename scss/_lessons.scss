@@ -1,0 +1,18 @@
+@import "variables";
+
+.sec-lessons{
+    height: 100vh;
+    background: $color-primary;
+    h5{
+        font-family: "IntroW01-BlackCaps";
+        font-size: 5.5rem;
+    }
+}
+
+@media only screen and(max-width:699px){
+    .sec-lessons{
+        h5{
+            font-size: 3.6rem; 
+        }
+    }
+}

@@ -1,0 +1,29 @@
+
+@import "variables";
+
+footer{
+    color: white;
+    height:10%;
+    background: $color-black;
+    h5{
+        font-size: 18px;
+        font-family: "Seravek-Bold"
+    }
+    img{
+        height: 23px;
+    }
+    p{
+        font-size: 14px;
+        font-family: "Seravek";
+        font-weight: 200;
+    }
+
+    i{
+        font-size: 34px;
+        transition: all .5s ease;
+    }
+    i:hover{
+        color: $color-primary;
+        font-size: 40px;
+    }
+}

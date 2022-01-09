@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "IntroW01-BlackCaps";
+  src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot");
+  src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff") format("woff"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.svg#IntroW01-BlackCaps") format("svg"); }
+@font-face {
+  font-family: "Seravek-ExtraLightItalic";
+  src: url("../font/Seravek-ExtraLightItalic.ttf"); }
+@font-face {
+  font-family: "Seravek";
+  src: url("../font/Seravek.ttf"); }
+@font-face {
+  font-family: "Seravek-Bold";
+  src: url("../font/Seravek-Bold.ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #F3F3F1; }
+
+.scroll {
+  animation: bounce_1966 3.6s ease infinite;
+  transform-origin: 50% 50%; }
+
+@keyframes bounce_1966 {
+  0% {
+    transform: translateY(0); }
+  5.55556% {
+    transform: translateY(0); }
+  11.11111% {
+    transform: translateY(0); }
+  22.22222% {
+    transform: translateY(-15px); }
+  27.77778% {
+    transform: translateY(0); }
+  33.33333% {
+    transform: translateY(-15px); }
+  44.44444% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0); } }
+h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  font-family: "IntroW01-BlackCaps";
+  color: #F3F3F1;
+  line-height: 5rem; }
+
+h2 {
+  color: #F3F3F1;
+  font-family: "Seravek-ExtraLightItalic"; }
+
+.more-info-black {
+  color: #F3F3F1; }
+
+.home {
+  height: 100vh; }
+
+.about {
+  height: 100vh;
+  background: #F26167; }
+
+@font-face {
+  font-family: "IntroW01-BlackCaps";
+  src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot");
+  src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff") format("woff"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.svg#IntroW01-BlackCaps") format("svg"); }
+nav {
+  height: 150px;
+  background: #F3F3F1; }
+
+.navbar-brand img {
+  height: 80px; }
+
+a {
+  font-family: IntroW01-BlackCaps;
+  color: #707070;
+  transition: all .8s ease; }
+
+a:hover {
+  color: #F26167; }
+
+/*# sourceMappingURL=estilos.css.map */

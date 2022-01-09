@@ -1,0 +1,46 @@
+$color-primary:#F26167;
+$color-secundary:#647CED;
+$color-black:#3D3D3D;
+$color-light:#F3F3F1;
+$color-error:red;
+
+
+//Fuente Black Caps Font
+@font-face {
+    font-family: "IntroW01-BlackCaps";
+    src: url("../font/IntroDemo-BlackCAPS.otf");
+}
+
+//Fuente Seravek
+@font-face {
+    font-family: "Seravek-ExtraLightItalic";
+    src: url("../font/Seravek-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Seravek-ExtraLightBold";
+    src: url("../font/Seravek-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Seravek";
+    src: url("../font/Seravek.ttf");
+}
+
+@font-face {
+    font-family: "Seravek-Bold";
+    src: url("../font/Seravek-Bold.ttf");
+}
+
+//Termina fuente Seravek
+
+//Fuentes para sección Inicio video Koala
+@font-face {
+    font-family: "Variable-Italic";
+    src: url("../font/SourceSansVariable-Italic.otf");
+}
+
+@font-face {
+    font-family: "Variable-Roman";
+    src: url("../font/SourceSansVariable-Roman.otf");
+}

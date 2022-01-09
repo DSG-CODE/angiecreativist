@@ -1,0 +1,32 @@
+@import "variables";
+
+@font-face {
+    font-family: "IntroW01-BlackCaps";
+    src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot");
+    src: url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.woff") format("woff"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1476e302b1615dd91aa3ddd0c662ee6e.svg#IntroW01-BlackCaps") format("svg");
+}
+
+nav{
+    height: 130px;
+    background: $color-light;
+}
+.navbar-brand{
+    img{
+        height: 60px;
+    }
+}
+
+a{
+    font-family: IntroW01-BlackCaps;
+    color: $color-black;
+    transition: all .8s ease;
+}
+
+a:hover{
+    color:$color-primary;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color:$color-primary;
+    background: $color-light;
+}

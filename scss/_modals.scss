@@ -1,0 +1,198 @@
+@import "variables";
+
+//Modal Works (Portafolio)
+.modal-body{
+    font-family: "Seravek";
+    font-size: 18px;
+    .color-primary, h4{
+        color: $color-primary;
+    }
+
+    .titleAbout-modal{
+        font-family: "IntroW01-BlackCaps";
+        font-size: 2.5em;
+        color: $color-black;
+    }
+
+    h2{
+        font-family: "IntroW01-BlackCaps";
+        font-size: 4rem;
+    }
+
+    h3{
+        
+        font-family: "Seravek-ExtraLightItalic";
+        font-size: 2.5rem;
+    }
+
+    h4{
+        font-family: "Seravek-Bold";
+    }
+
+    h5{
+        font-family: "IntroW01-BlackCaps";
+        font-size: 30px;
+        color: $color-black;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 5%;
+      }
+}
+
+@media only screen and(max-width:700px){
+    .modal-body{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media only screen and(max-width:699px){
+    .modal-body{
+        h3{
+            font-size: 2rem;
+        }
+
+        .titleAbout-modal{
+            font-family: "IntroW01-BlackCaps";
+            font-size: 2em;
+        }
+    }
+
+}
+
+.modal-lg, .modal-xl {
+    max-width: 100%;
+    margin: auto;
+}
+//Termina Modal Works (Portafolio)
+
+//Modal Contact
+.modal-sm {
+    max-width: 60%;
+    margin: auto;
+    .modal-content{
+        background: $color-primary;
+        color: $color-light;
+        .modal-title{
+            font-family: "Seravek-Bold";
+            font-size: 2em;
+        }
+        //Estilos Formularios
+        .contenedor-formulario{
+            width: 90%;
+            margin: auto;
+            .input-group{
+                position: relative;
+                input[type="text"],input[type="email"]{
+                    font-family: "Seravek";
+                    font-size: 16px;
+                    width: 100%;
+                    outline: none;
+                    padding: 15px;
+                    background: none;
+                    border: none;
+                    border-bottom: 1px solid $color-light;
+                    &:focus,&:active{
+                        outline: none;
+                        border-bottom: 2px solid #f3f3f3;
+                    &.error{
+                        border-bottom: crimson 2px solid;
+                    }
+                    }  
+                }
+                label{
+                    &.label{
+                        position: absolute;
+                        top: 16px;
+                        left: 0;
+                        font-size: 16px;
+                        line-height: 16px;
+                        margin-left: 16px;
+                        transition: all .3s ease;
+                        &.active{
+                            top:-12px;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: rgba($color-light, $alpha: .5);
+                        }
+                    }
+                }
+                &.checkbox label{
+                    display: inline-block;
+                    cursor: pointer;
+                    position: relative;
+                    padding: 5px 15px 5px 51px;
+                    border-radius: 3px;
+                    transition: all .3s ease;
+                    display: flex;
+                    align-items: center;
+                    &:hover{
+                        background: rgba($color-light, $alpha: .5);
+                    }
+
+                    &:before{
+                        content: "";
+                        display: inline-block;
+                        width: 17px;
+                        height: 17px;
+                        position: absolute;
+                        left: 15px;
+                        border-radius: 50%;
+                        background: none;
+                        border: solid 2px $color-light;
+                    }
+                }
+
+                &.error{
+                    label{
+                        color: $color-error;
+                        &:hover{
+                            background: rgba($color-error, $alpha: .2)
+                        }
+                        &:before{
+                            border: $color-error solid 2px;
+                        }
+                    }
+                }
+
+                &.checkbox{
+                    label:before{
+                        border-radius: 3px;
+                    }
+                    input[type="checkbox"]{
+                        display: none;
+                        &:checked + label:before{
+                            display: none;
+                        }
+                        &:checked + label{
+                            padding: 5px 15px;
+                            color: $color-light;
+                            background: #F5474E;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+            input[type="submit"]{
+                background: $color-light;
+                color: $color-primary;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                font-family: "Seravek-Bold";
+                display: inline-block;
+                padding: 10px;
+                width: 200px;
+                transition: all .3s ease;
+                &:hover{
+                    font-size: 1.5em;
+                }
+            }
+        }
+        
+    }
+}
+
