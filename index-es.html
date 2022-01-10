@@ -35,7 +35,7 @@
     ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="hiddent">
 
     <!-- Preload -->
-    <div class="container-cargador" id="preload">
+    <div class="container-cargador" style="display: flex; flex-direction: column;" id="preload">
         <!-- <img src="img/icono-preload.svg" alt=""> -->
         <div class="lds-roller">
             <div></div>
@@ -47,6 +47,8 @@
             <div></div>
             <div></div>
         </div>
+        <h4 class="text-white pt-4 text-center d-none d-md-block">Nuevas actualizaciones muy pronto...</h4>
+        <h4 class="text-white pt-4 text-center d-block d-md-none">Nuevas actualizaciones <br /> muy pronto...</h4>
     </div>
     <!-- Termina Preload -->
 
@@ -81,7 +83,7 @@
             <video loop muted autoplay class="d-none d-lg-block">
                 <source src="video/site/Site-Intro.mp4" type="video/mp4">
             </video>
-            <video loop muted autoplay class="d-block d-lg-none" poster="video/movil/Movil-Intro_Cover-02.jpg">
+            <video loop muted autoplay class="d-block d-lg-none" poster="video/movil/Movil-Intro_Cover.jpg">
                 <source src="video/movil/Movil-Intro.mp4" type="video/mp4">
             </video>
             <div class="col-12 text-center contenedor-scroll">
@@ -679,7 +681,7 @@
                             <h5>Hecho con amor por</h5> <img src="img/angie-footer.png" class="pl-2" alt="">
                         </div>
                         <div class="row justify-content-lg-start justify-content-center">
-                            <p class="text-white">© 2021 TODOS LOS DERECHOS RESERVADOS</p>
+                            <p class="text-white">© 2022 TODOS LOS DERECHOS RESERVADOS</p>
                         </div>
                     </div>
 

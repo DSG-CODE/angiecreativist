@@ -98,6 +98,10 @@ h3 {
     h3 a:hover {
       color: #3D3D3D; }
 
+h4 {
+  font-family: "IntroW01-BlackCaps";
+  font-size: 30px; }
+
 .p-primary {
   color: #F26167;
   font-family: "Seravek";
