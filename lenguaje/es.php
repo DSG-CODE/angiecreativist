@@ -142,6 +142,55 @@ $lang = array(
     /* Termina KICK OFF JOHNSON & JOHNSON CANCUN */
     /* Termina Recognitions */
     /* --------------- Termina Sección ABOUT/MODAL ---------------  */
+
+    /* --------------- Sección PORTFOLIO/WORK Front ---------------  */
+    /* Category Work */
+    "WORK_CATEGORY_TITLE" => " PROYECTOS",
+
+    "WORK_CATEGORY_ALL" => "Todos",
+    "WORK_CATEGORY_BRANDING" => "IDENTIDAD DE MARCA",
+    "WORK_CATEGORY_POSTER" => "CARTEL",
+    "WORK_CATEGORY_SOCIAL_CAMPAIGN" => "CAMPAÑA SOCIAL",
+    "WORK_CATEGORY_ILLUSTRATION" => "ILUSTRACIÓN",
+    "WORK_CATEGORY_INFOGRAPHIC" => "INFOGRAFÍA",
+    "WORK_CATEGORY_SOCIAL_MEDIA" => "SOCIAL REDES SOCIALES",
+    /* Termina Category Work */
+
+    /* Portfolio List Front */
+    "WORK_PORTFOLIO_FRONT_TAXES" => "IMPUESTOS",
+    "WORK_PORTFOLIO_FRONT_SUBE_TU_RFC" => "Sube tu RFC",
+    "WORK_PORTFOLIO_FRONT_VIAJA_SEGURO" => "Viaja Seguro",
+    "WORK_PORTFOLIO_FRONT_IMAGINE" => "Imagine",
+    "WORK_PORTFOLIO_FRONT_CASA_VIVA" => "Casa Viva",
+    "WORK_PORTFOLIO_FRONT_CONTIGO_SIEMPRE" => "Contigo siempre",
+    "WORK_PORTFOLIO_FRONT_DECLARACION_ANUAL" => "Declaración Anual",
+    "WORK_PORTFOLIO_FRONT_TOC_TOC" => "toc toc",
+    "WORK_PORTFOLIO_FRONT_FAITH_AND_HOPE" => "Faith and Hope",
+    "WORK_PORTFOLIO_FRONT_REUSE_SAVE_LIVES" => "Reuse Save Lives",
+    "WORK_PORTFOLIO_FRONT_WORLD_OCEANS_DAY" => "World Oceans Day",
+    "WORK_PORTFOLIO_FRONT_WORLD_BEE_DAY" => "World <br> Bee Day",
+    "WORK_PORTFOLIO_FRONT_CLIMATE_CHANGE" => "Climate Change mata (kills)",
+    "WORK_PORTFOLIO_FRONT_LETS_TURN_OFF" => "Let's turn off Climate Change",
+    "WORK_PORTFOLIO_FRONT_REBORN" => "Reborn",
+    "WORK_PORTFOLIO_FRONT_MORE02" => "More 02, <br />Less C02",
+    "WORK_PORTFOLIO_FRONT_EARTH_GROWING" => "Earth Growing",
+    "WORK_PORTFOLIO_FRONT_TOGETHER_IN_THE_DISTANCE" => "Together in the distance",
+    "WORK_PORTFOLIO_FRONT_WE_OFFER_OUR_HEART" => "We offer <br />our heart",
+    "WORK_PORTFOLIO_FRONT_LETS_TURN_IT_OFF" => "Let’s turn <br />it off",
+    "WORK_PORTFOLIO_FRONT_SUN_OF_MY_SOUL" => "Sun of <br />my soul",
+    "WORK_PORTFOLIO_FRONT_OUR_VALUE_IT_COUNTS" => "NUESTRO VALOR SI SE CUENTA",
+    "WORK_PORTFOLIO_FRONT_IF_WE_STOP_EATING" => "If we stop eating",
+    "WORK_PORTFOLIO_FRONT_JUNTOS_EN_LA_DISTANCIA" => "Juntos en la distancia",
+    "WORK_PORTFOLIO_FRONT_FUTURE_LIVING_SPACE" => "Future living space",
+    "WORK_PORTFOLIO_FRONT_CREDO_DAY" => "Credo Day",
+    "WORK_PORTFOLIO_FRONT_TU_QUE_SENTIRIAS" => "¿Tú qué sentirías?",
+    "WORK_PORTFOLIO_FRONT_HUMINATION" => "Humination",
+    "WORK_PORTFOLIO_FRONT_LETS_LISTEN_TO_THE_OCEAN" => "Let´s Listen to the Ocean",
+    "WORK_PORTFOLIO_FRONT_THE_BEST_PROGRESS" => "The best progress",
+    "WORK_PORTFOLIO_FRONT_CEMEFI" => "Reunión Anual Cemefi",
+    /* Termina Portfolio List Front */
+
+    /* --------------- TERMINA Sección PORTFOLIO/WORK Front ---------------  */
 )
 
 ?>

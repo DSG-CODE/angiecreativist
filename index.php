@@ -54,19 +54,19 @@
         <!--Sección Portfolio-->
         <section class="container-fluid py-5" id="work">
 
-            <h3 class="text-center py-5 mt-lg-5 wow fadeInUp">WORK</h3>
+            <h3 class="text-center py-5 mt-lg-5 wow fadeInUp"><?php echo $lang['WORK_CATEGORY_TITLE'];?></h3>
 
             <div class="portafolio-wrapper">
                 <!-- Selecciones Categoría -->
                 <div
                     class="category_list container d-flex flex-md-row flex-column justify-content-center flex-wrap pb-5">
-                    <a href="#work" class="category_item" category="all">ALL</a>
-                    <a href="#work" class="category_item" category="branding">BRANDING</a>
-                    <a href="#work" class="category_item" category="poster">POSTER</a>
-                    <a href="#work" class="category_item" category="social-campaing">SOCIAL CAMPAIGN</a>
-                    <a href="#work" class="category_item" category="illustration">ILLUSTRATION</a>
-                    <a href="#work" class="category_item" category="infographic">INFOGRAPHIC</a>
-                    <a href="#work" class="category_item" category="social-media-design">SOCIAL MEDIA</a>
+                    <a href="#work" class="category_item" category="all"><?php echo $lang['WORK_CATEGORY_ALL'];?></a>
+                    <a href="#work" class="category_item" category="branding"><?php echo $lang['WORK_CATEGORY_BRANDING'];?></a>
+                    <a href="#work" class="category_item" category="poster"><?php echo $lang['WORK_CATEGORY_POSTER'];?></a>
+                    <a href="#work" class="category_item" category="social-campaing"><?php echo $lang['WORK_CATEGORY_SOCIAL_CAMPAIGN'];?></a>
+                    <a href="#work" class="category_item" category="illustration"><?php echo $lang['WORK_CATEGORY_ILLUSTRATION'];?></a>
+                    <a href="#work" class="category_item" category="infographic"><?php echo $lang['WORK_CATEGORY_INFOGRAPHIC'];?></a>
+                    <a href="#work" class="category_item" category="social-media-design"><?php echo $lang['WORK_CATEGORY_SOCIAL_MEDIA'];?></a>
                 </div>
                 <!-- Termina Selecciones Categoría -->
 
@@ -78,7 +78,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Impuestos-taxes.jpg" class="w-100" alt="Taxes - Airbnb ">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Taxes</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_TAXES'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Sube-tu-RFC.jpg" class="w-100" alt="Sube tu RFC - Airbnb ">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Sube tu RFC</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_SUBE_TU_RFC'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Viaja-Seguro.jpg" class="w-100" alt="Viaja Seguro - Airbnb ">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Viaja Seguro</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_VIAJA_SEGURO'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Imagine.jpg" class="w-100" alt="Imagine">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Imagine</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_IMAGINE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -116,9 +116,9 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalCasaViva"
                         category="branding">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Casa-Viva.jpg" class="img-fluid" alt="Casa Viva">
+                            <img src="img/Portafolio-Front/Casa-Viva.jpg" class="w-100" alt="Casa Viva">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Casa Viva</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_CASA_VIVA'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -126,10 +126,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalContigoSiempre"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Contigo-siempre.jpg" class="img-fluid" alt="Poster for “Soldados de Amor” - International Day for the prevention
+                            <img src="img/Portafolio-Front/Contigo-siempre.jpg" class="w-100" alt="Poster for “Soldados de Amor” - International Day for the prevention
                                 of Childhood Cancer">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Contigo siempre</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_CONTIGO_SIEMPRE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             <img src="img/Portafolio-Front/Declaracion-anual.jpg" class="w-100"
                                 alt="Declaración anual - Airbnb ">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Declaración Anual</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_DECLARACION_ANUAL'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Toc-Toc.jpg" class="w-100" alt="toc toc">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">toc toc</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_TOC_TOC'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -158,9 +158,9 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalFaithAndHope"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Faith-and-Hope.jpg" class="img-fluid" alt="Faith and Hope">
+                            <img src="img/Portafolio-Front/Faith-and-Hope.jpg" class="w-100" alt="Faith and Hope">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Faith and Hope</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_FAITH_AND_HOPE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Reuse-Save-Lives.jpg" class="w-100" alt="Reuse Save Lives">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Reuse Save Lives</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_REUSE_SAVE_LIVES'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -178,10 +178,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalWorldOceansDay"
                         category="social-campaing">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/World-Oceans-Day.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/World-Oceans-Day.jpg" class="w-100"
                                 alt="World Oceans Day">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">World Oceans Day</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_WORLD_OCEANS_DAY'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Dia-Mundial-de-las-Abejas.jpg" class="w-100" alt="Bee Day">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">World <br>Bee Day</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_WORLD_BEE_DAY'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -199,10 +199,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalClimateChangeMata"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Climate-Change-mata-kills.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/Climate-Change-mata-kills.jpg" class="w-100
                                 alt="Climate Change mata (kills)">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Climate Change mata (kills)</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_CLIMATE_CHANGE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 <source src="video/movil/Movil-Work-Lets-turn-off-Climate-Change.mp4">
                             </video>
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Let's turn off Climate Change</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_LETS_TURN_OFF'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Renacer-Reborn.jpg" class="w-100" alt="REBORN">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Reborn</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_REBORN'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -237,10 +237,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalMore02"
                         category="illustration">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/More-02-Less-C02.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/More-02-Less-C02.jpg" class="w-100"
                                 alt="More 02, Less C02">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">More 02, <br />Less C02</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_MORE02'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -248,9 +248,9 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalEarthGrowing"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Earth-Growing.jpg" class="img-fluid" alt="Earth Growing">
+                            <img src="img/Portafolio-Front/Earth-Growing.jpg" class="w-100" alt="Earth Growing">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Earth Growing</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_EARTH_GROWING'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -258,10 +258,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalTogetherInDistance"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Together-in-the-distance.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/Together-in-the-distance.jpg" class="w-100
                                 alt="Together in the distance">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Together in the distance</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_TOGETHER_IN_THE_DISTANCE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -269,10 +269,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalWeOfferOurHeart"
                         category="poster">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/We-offer-our-heart.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/We-offer-our-heart.jpg" class="w-100"
                                 alt="We offer our heart">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">We offer <br />our heart</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_WE_OFFER_OUR_HEART'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -280,10 +280,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalLetsTurnItOff"
                         category="illustration">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Lets-turn-it-off.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/Lets-turn-it-off.jpg" class="w-100
                                 alt="Lets turn it off">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Let’s turn <br />it off</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_LETS_TURN_IT_OFF'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -291,9 +291,9 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalSunOfmySoul"
                         category="illustration">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Sun-of-my-soul.jpg" class="img-fluid" alt="Sun of my soul">
+                            <img src="img/Portafolio-Front/Sun-of-my-soul.jpg" class="w-100" alt="Sun of my soul">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Sun of <br />my soul</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_SUN_OF_MY_SOUL'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -304,7 +304,7 @@
                             <img src="img/Portafolio-Front/Nuestro-valor-SI-se-CUENTA.jpg" class="w-100"
                                 alt="Our Value it Counts">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Our Value IT COUNTS</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_OUR_VALUE_IT_COUNTS'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                             <img src="img/Portafolio-Front/If-we-stop-eating.jpg" class="w-100"
                                 alt="Our Value it Counts">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">If we stop eating </h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_IF_WE_STOP_EATING'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                             <img src="img/Portafolio-Front/Juntos-en-la-distancia.jpg" class="w-100"
                                 alt="Juntos en la distancia">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Juntos en la distancia</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_JUNTOS_EN_LA_DISTANCIA'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                             <img src="img/Portafolio-Front/Future-living-space.jpg" class="w-100"
                                 alt="Juntos en la distancia">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Future living space</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_FUTURE_LIVING_SPACE'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -347,7 +347,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/Credo-Day.jpg" class="w-100" alt="Credo Day">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Credo Day</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_CREDO_DAY'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                             <img src="img/Portafolio-Front/Tu-que-sentirias.jpg" class="w-100"
                                 alt="¿Tú qué sentirías?">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">¿Tú qué sentirías?</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_TU_QUE_SENTIRIAS'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -368,7 +368,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio/modalHumination/Humination-GIF.gif" class="w-100" alt="Humination">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Humination</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_HUMINATION'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -376,10 +376,10 @@
                     <div class="portafolio-item" data-toggle="modal" data-target="#modalEscuchemosAlOceano"
                         category="social-media-design">
                         <div class="image-work">
-                            <img src="img/Portafolio-Front/Escuchemos-al-oceano.jpg" class="img-fluid"
+                            <img src="img/Portafolio-Front/Escuchemos-al-oceano.jpg" class="w-100"
                                 alt="Let´s Listen to the Ocean">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Let´s Listen to the Ocean</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_LETS_LISTEN_TO_THE_OCEAN'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -389,7 +389,7 @@
                         <div class="image-work">
                             <img src="img/Portafolio-Front/The-best-progress.jpg" class="w-100" alt="The best progress">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">The best progress</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_THE_BEST_PROGRESS'];?></h2>
                             </div>
                         </div>
                     </div>
@@ -400,7 +400,7 @@
                             <img src="img/Portafolio-Front/Reunion-Anual-Cemefi.jpg" class="w-100"
                                 alt="Reunión Anual Cemefi">
                             <div class="text-work d-flex justify-content-center align-items-center">
-                                <h2 class="p-3">Reunión Anual Cemefi</h2>
+                                <h2 class="p-3"><?php echo $lang['WORK_PORTFOLIO_FRONT_CEMEFI'];?></h2>
                             </div>
                         </div>
                     </div>
