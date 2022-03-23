@@ -560,135 +560,106 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img src="img/ANGIE.jpg" class="w-100" alt="">
-                                    <h1 class="m-lg-n3 m-n2 color-primary text-left">creativist designing awareness</h1>
-                                    <h3 class="pt-3">Member of: <a
-                                            href="https://www.climatedesigners.org/profiles/angie-irais-soto-tinoco"
-                                            target="_blank">Climate Designers</a></h3>
+                                    <h1 class="m-lg-n3 m-n2 color-primary text-left"><?php echo $lang['ABOUT_MODAL_TITLE'];?></h1>
+                                    <h3 class="pt-3"><?php echo $lang['ABOUT_MODAL_SUBTITLE01'];?>
+                                    <ahref="https://www.climatedesigners.org/profiles/angie-irais-soto-tinoco"
+                                            target="_blank"><?php echo $lang['ABOUT_MODAL_SUBTITLE02'];?></ahref=></h3>
 
-                                    <h3 class="titleAbout-modal pt-4" style="font-size: 30px;">PUBLICATIONS & REFERENCES
-                                    </h3>
+                                    <h3 class="titleAbout-modal pt-4" style="font-size: 30px;"><?php echo $lang['ABOUT_MODAL_PUBLICATIONS'];?></h3>
                                     <h3 class="hover-primario" style="font-size: 20px;"><a
                                             href="https://www.climatedesigners.org/profiles/angie-irais-soto-tinoco"
                                             target="_blank" style="display: flex; align-items: center;"><i
-                                                class="fas fa-chevron-right" style="font-size: 16px;"></i> Climate
-                                            Designers Profile</a></h3>
+                                                class="fas fa-chevron-right" style="font-size: 16px;"></i> <?php echo $lang['ABOUT_MODAL_LIST01'];?></a></h3>
 
                                     <h3 class="hover-primario" style="font-size: 20px;"><a
                                             href="http://www.posterposter.org/poster-monday-together-distance/"
                                             target="_blank" style="display: flex; align-items: center;"><i
-                                                class="fas fa-chevron-right" style="font-size: 16px;"></i> Poster Monday
-                                            Selected</a></h3>
+                                                class="fas fa-chevron-right" style="font-size: 16px;"></i> <?php echo $lang['ABOUT_MODAL_LIST02'];?></a></h3>
 
                                     <h3 class="hover-primario" style="font-size: 20px;"><a
                                             href="https://www.instagram.com/p/CKPv3w7hCWO/" target="_blank"
                                             style="display: flex; align-items: center;"><i class="fas fa-chevron-right"
-                                                style="font-size: 16px;"></i> Featured Climate Designer of the week</a>
+                                                style="font-size: 16px;"></i> <?php echo $lang['ABOUT_MODAL_LIST03'];?></a>
                                     </h3>
 
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <p class="color-primary mt-5 mt-lg-0">Hi! I am angie creativist, an <strong>activist
-                                            and
-                                            creative graphic designer</strong> dedicated to help the planet & society
-                                        through my vision.</p>
-                                    <p>I was born and rased in <b>Mexico City</b>, I studied <strong>Graphic Design,
-                                            Photography & Advertising;</strong> in the last few months I dedicated
-                                        myself to focus on <strong>creativity applied in poster.</strong></p>
-                                    <p>In 2019 <strong>I was selected to become a Climate Leader</strong> and I went to
-                                        Australia to represent my country, since then <strong>I’ve been giving talks of
-                                            global warming in schools.</strong></p>
-                                    <p>Starting last year, I embarked on my journey as an independent designer and
-                                        started
-                                        working on my life purpose.</b></p>
-
-                                    <!-- Awards -->
-                                    <h3 class="titleAbout-modal">awards</h3>
-
-                                    <h4 class="text-uppercase">a! Diseño 2020</h4>
-                                    <span class="color-primary text-uppercase">Finalist Category: Poster</span><br>
-                                    <span class="color-primary text-uppercase">Finalist Category: Social Covid 19 Poster</span><br>
-                                    <span class="color-primary text-uppercase">Finalist Category: Branding</span><br>
-                                    <span class="color-primary text-uppercase">Finalist Category: Cultural Branding</span><br>
-                                    <p class="color-primary text-uppercase">Finalist Category: Web Page</p>
-
-                                    <h4>A! DISEÑO 2018</h4>
-                                    <p class="color-primary">FINALIST CATEGORY: POSTER</p>
-
-                                    <h4>A! DISEÑO 2017</h4>
-                                    <p class="color-primary">FINALIST CATEGORY: ADVERTISING</p>
-
-                                    <h4 class="hover-primario"><a
-                                            href="http://www.posterterritory.com/the-world-after-shortlist/"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> The World After
-                                            International Poster Competition</a></h4>
-                                    <p class="color-primary">TOP 100 FINALIST / E.U EXHIBITION</p>
-
-                                    <h4 class="hover-primario"><a href="https://www.instagram.com/flamanteslibro/"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> FLAMANTES LIBRO ESPAÑA
-                                            #19 2020</a></h4>
-                                    <p class="color-primary">SELECTED ARTIST</p>
-
-                                    <h4>REINICIA Y REDISEÑA NUESTRO MUNDO – COMPETENCIA INTERNACIONAL DE CARTEL DESDE
-                                        ECUADOR</h4>
-                                    <p class="color-primary">TOP 100 FINALIST / ECUADOR - WORLDWIDE EXHIBITION</p>
-
-                                    <h4 class="hover-primario"><a
-                                            href="http://www.comuniteca.org/libro_miradas_de_pandemia.pdf?fbclid=IwAR1o7BXAdQ4BBDKPfdAH1OUYufnmNR6-BuML1iGuSEdfIr31phajzqBfa4c"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> MIRADAS DE PANDEMIA.
-                                            APORTES AL CARTELISMO SOCIAL EN TIEMPOS DE COVID – 19 DESDE PERÚ</a></h4>
-                                    <p class="color-primary">TOP 100 FINALIST / PERU - WORLDWIDE EXHIBITION</p>
-
-
-                                    <h4 class="hover-primario"><a href="https://bit.ly/2QqZHSO" target="_blank"><i
-                                                class="fas fa-chevron-right"></i> 2020 WORLD BOOK INTERNATIONAL WELFARE
-                                            POSTER DESIGN EXHIBITION</a></h4>
-                                    <p class="color-primary">TOP 100- FINALIST / EXHIBITION IN SHANGAI, CHINA</p>
-
-                                    <h4 class="hover-primario"><a href="https://bit.ly/3sjIIiw" target="_blank"><i
-                                                class="fas fa-chevron-right"></i> ZERO DISCRIMINATION DAY INTERNATIONAL
-                                            POSTER COMPETITION BY UNAIDS</a></h4>
-                                    <p class="color-primary">TOP 100- FINALIST / POSTER FOR UNAIDS INTERNATIONAL
-                                        EXHIBITION</p>
-
-
-                                    <h4 class="hover-primario"><a
-                                            href="https://bienalcartel.org/hacia-un-planeta-sincontaminacion/"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> BICM INTERNATIONAL
-                                            POSTER COMPETITION</a></h4>
-                                    <p class="color-primary">FINALIST CATEGORY: SOCIAL POSTER BY THE UN ENVIRONMENT</p>
-
-                                    <h4 class="hover-primario"><a href="https://goweb.tv/cemefi/#banner"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> CEMEFI LOGO
-                                            COMPETITION</a></h4>
-                                    <p class="color-primary">AWARD WINNER</p>
-
-                                    <!-- Recognitions -->
-                                    <h3 class="titleAbout-modal">recognitions</h3>
-                                    <h4>SOLDADOS DE AMOR</h4>
-                                    <p class="color-primary">INTERNATIONAL INVITATIONAL POSTER EXHIBITION FROM MEXICO -
-                                        INTERNATIONAL DAY FOR THE PREVENTION OF CHILDHOOD CANCER</p>
-
-                                    <h4 class="hover-primario"><a href="http://www.rincrea.com/navidad.htm"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> DIGNAVIDAD 2020</a>
-                                    </h4>
-                                    <p class="color-primary">INTERNATIONAL INVITATIONAL POSTER EXHIBITION FROM ECUADOR
+                                    <p class="color-primary mt-5 mt-lg-0">
+                                        <?php echo $lang['ABOUT_MODAL_PARRAFO01'];?>
                                     </p>
 
-                                    <h4>RESOURCE OCEAN THEME POSTER EXHIBITION</h4>
-                                    <p class="color-primary">INTERNATIONAL INVITATIONAL POSTER EXHIBITION FROM CHINA</p>
+                                    <?php echo $lang['ABOUT_MODAL_PARRAFO02'];?>
 
-                                    <h4 class="hover-primario"><a
-                                            href="http://www.posterposter.org/poster-monday-together-distance/"
-                                            target="_blank"><i class="fas fa-chevron-right"></i> POSTER MONDAY AUGUST
-                                            2020</a></h4>
-                                    <p class="color-primary">“TOGETHER IN THE DISTANCE” SELECTED POSTER WORLDWIDE</p>
+                                    <!-- Awards -->
+                                    <h3 class="titleAbout-modal"><?php echo $lang['ABOUT_MODAL_TITLE_AWARDS'];?></h3>
 
-                                    <h4>REALITY CLIMATE TRAINING</h4>
-                                    <p class="color-primary">SELECTED TO REPRESENT MY COUNTRY MEXICO</p>
+                                    <h4 class="text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020'];?></h4>
+                                    <span class="color-primary text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020_LIST01'];?></span><br>
+                                    <span class="color-primary text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020_LIST02'];?></span><br>
+                                    <span class="color-primary text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020_LIST03'];?></span><br>
+                                    <span class="color-primary text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020_LIST04'];?></span><br>
+                                    <p class="color-primary text-uppercase"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2020_LIST05'];?></p>
 
-                                    <h4>KICK OFF JOHNSON & JOHNSON CANCUN</h4>
-                                    <p class="color-primary">DIRECTION & CREATION OF THE VISUALS (DESIGN DEPARTMENT)</p>
+                                    <h4><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2018'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2018_LIST01'];?></p>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2017'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_ADISENIO_2017_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="http://www.posterterritory.com/the-world-after-shortlist/"
+                                            target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_THE_WORLD_AFTER'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_THE_WORLD_AFTER_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="https://www.instagram.com/flamanteslibro/"
+                                            target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_FLAMANTES_LIBRO_ESPANIA'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_FLAMANTES_LIBRO_ESPANIA_LIST01'];?></p>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_AWARDS_REINICIA_NUESTRO_MUNDO'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_REINICIA_NUESTRO_MUNDO_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="http://www.comuniteca.org/libro_miradas_de_pandemia.pdf?fbclid=IwAR1o7BXAdQ4BBDKPfdAH1OUYufnmNR6-BuML1iGuSEdfIr31phajzqBfa4c"
+                                            target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_MIRADAS_DE_PANDEMIA'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_MIRADAS_DE_PANDEMIA_LIST01'];?></p>
+
+
+                                    <h4 class="hover-primario"><a href="https://bit.ly/2QqZHSO" target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_2020_WORLD_BOOK'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_2020_WORLD_BOOK_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="https://bit.ly/3sjIIiw" target="_blank"><i
+                                                class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_ZERO_DISCRIMINATION_DAY'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_ZERO_DISCRIMINATION_DAY_LIST01'];?></p>
+
+
+                                    <h4 class="hover-primario"><a href="https://bienalcartel.org/hacia-un-planeta-sincontaminacion/"
+                                            target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_AWARDS_BICM_INTERNATIONAL'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_BICM_INTERNATIONAL_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="https://goweb.tv/cemefi/#banner"
+                                            target="_blank"><i class="fas fa-chevron-right"></i><?php echo $lang['ABOUT_MODAL_AWARDS_CEMEFI'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_AWARDS_CEMEFI_LIST01'];?></p>
+
+                                    <!-- Recognitions -->
+                                    <h3 class="titleAbout-modal"><?php echo $lang['ABOUT_MODAL_TITLE_RECOGNITIONS'];?></h3>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_SOLDADOS_DE_AMOR'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_SOLDADOS_DE_AMOR_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="http://www.rincrea.com/navidad.htm" target="_blank"><i class="fas fa-chevron-right"></i><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_DIGNAVIDAD_2020'];?></a>
+                                    </h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_DIGNAVIDAD_2020_LIST01'];?> </p>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_RESOURCE_OCEAN'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_RESOURCE_OCEAN_LIST01'];?></p>
+
+                                    <h4 class="hover-primario"><a href="http://www.posterposter.org/poster-monday-together-distance/" target="_blank"><i class="fas fa-chevron-right"></i> <?php echo $lang['ABOUT_MODAL_RECOGNITIONS_POSTER_MONDAY'];?></a></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_POSTER_MONDAY_LIST01'];?></p>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_REALITY_CLIMATE'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_REALITY_CLIMATE_LIST01'];?></p>
+
+                                    <h4><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_KICK_OFF_JNJ'];?></h4>
+                                    <p class="color-primary"><?php echo $lang['ABOUT_MODAL_RECOGNITIONS_KICK_OFF_JNJ_LIST01'];?></p>
 
                                     <div class="d-flex justify-content-center py-3 d-block d-lg-none">
                                         <div class="btnClose d-flex justify-content-center align-items-center"

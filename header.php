@@ -2,7 +2,7 @@
     include "configuracion.php"
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang['HEAD_LANGUAJE'];?>">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,9 +21,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=”robots” content="Index, Follow">
-    <meta name="description" content="Hi! I am angie creativist, designer & creative dedicated to activism, my purpose is to
-        communicate to raise awareness on cultural, social and environmental issues." />
-    <title>angie creativist - Designing Awareness</title>
+    <meta name="description" content="<?php echo $lang['HEAD_META_DESCRIPTION'];?>" />
+    <title><?php echo $lang['HEAD_TITLE_WEB'];?></title>
     <link rel="shortcut icon" href="img/favicon-Angie.png" type="image/x-icon">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
