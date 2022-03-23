@@ -1,3 +1,6 @@
+<?php
+    include "configuracion.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,8 +50,8 @@
             <div></div>
             <div></div>
         </div>
-        <h4 class="text-white pt-4 text-center d-none d-md-block">New updates coming soon...</h4>
-        <h4 class="text-white pt-4 text-center d-block d-md-none">New updates <br /> coming soon...</h4>
+        <h4 class="text-white pt-4 text-center d-none d-md-block"><?php echo $lang['COMING_SOON_PART1'];?> <?php echo $lang['COMING_SOON_PART2'];?></h4>
+        <h4 class="text-white pt-4 text-center d-block d-md-none"><?php echo $lang['COMING_SOON_PART1'];?> <br /> <?php echo $lang['COMING_SOON_PART2'];?></h4>
     </div>
     <!-- Termina Preload -->
 
@@ -63,16 +66,16 @@
                     <img src="img/logo-angie-movil.svg" alt="Logo Fazt" class="logo">
                 </a>
             </li>
-            <li> <a href="#inicio" class="pl-5">Home</a></li>
-            <li><a href="#about" class="pl-5">About</a></li>
-            <li> <a href="#work" class="pl-5">Work</a></li>
-            <li> <a href="#lessons" class="pl-5">Lessons</a></li>
-            <li> <a href="#clientes" class="pl-5">Clients</a></li>
-            <li> <a href="#blog" class="pl-5">Blog</a></li>
-            <li><a href="#contacto" class="pl-5">Contact</a></li>
+            <li> <a href="#inicio" class="pl-5"><?php echo $lang['MENU_HOME'];?></a></li>
+            <li><a href="#about" class="pl-5"><?php echo $lang['MENU_ABOUT'];?></a></li>
+            <li> <a href="#work" class="pl-5"><?php echo $lang['MENU_WORK'];?></a></li>
+            <li> <a href="#lessons" class="pl-5"><?php echo $lang['MENU_LESSONS'];?></a></li>
+            <li> <a href="#clientes" class="pl-5"><?php echo $lang['MENU_CLIENTS'];?></a></li>
+            <li> <a href="#blog" class="pl-5"><?php echo $lang['MENU_BLOG'];?></a></li>
+            <li><a href="#contacto" class="pl-5"><?php echo $lang['MENU_CONTACT'];?></a></li>
             <li class="d-flex flex-row" style="margin-left: 35px;">
-                <a class="nav-link pr-1" href="index-es.html">ES</a> <span class="nav-link px-0">/</span><a
-                    class="nav-link pl-1">EN</a>
+                <a class="nav-link pr-1" href="index.php?lang=es"><?php echo $lang['MENU_LANGUAJE_ES'];?></a> <span class="nav-link px-0">/</span><a
+                   href="index.php?lang=en" class="nav-link pl-1"><?php echo $lang['MENU_LANGUAJE_EN'];?></a>
             </li>
         </ul>
     </div>
@@ -95,6 +98,7 @@
     </header>
     <!--Sección Header-->
 
+    
     <!--Menú desktop-->
     <nav class="navbar navbar-dark shadow sticky-top d-none d-md-block">
         <div class="container d-flex justify-content-center flex-column">
@@ -102,29 +106,29 @@
             <div class="row">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a data-scroll class="nav-link " href="#inicio"> Home 123</a>
+                        <a data-scroll class="nav-link " href="#inicio"> <?php echo $lang['MENU_HOME'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link active" href="#about">About</a>
+                        <a data-scroll class="nav-link active" href="#about"><?php echo $lang['MENU_ABOUT'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#work">Work</a>
+                        <a data-scroll class="nav-link" href="#work"><?php echo $lang['MENU_WORK'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#lessons">Lessons</a>
+                        <a class="nav-link" href="#lessons"><?php echo $lang['MENU_LESSONS'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#clientes">Clients</a>
+                        <a class="nav-link" href="#clientes"><?php echo $lang['MENU_CLIENTS'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#blog"><?php echo $lang['MENU_BLOG'];?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contact</a>
+                        <a class="nav-link" href="#contacto"><?php echo $lang['MENU_CONTACT'];?></a>
                     </li>
                     <li class="nav-item d-flex flex-row">
-                        <a class="nav-link pr-1" href="index-es.html">ES</a> <span class="nav-link px-0">/</span><a
-                            class="nav-link pl-1">EN</a>
+                        <a href="index.php?lang=es" class="nav-link pr-1"><?php echo $lang['MENU_LANGUAJE_ES'];?></a> <span class="nav-link px-0">/</span><a class="nav-link pl-1"
+                            href="index.php?lang=en"><?php echo $lang['MENU_LANGUAJE_EN'];?></a>
                     </li>
                 </ul>
             </div>

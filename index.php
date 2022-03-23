@@ -1,3 +1,4 @@
+
 <?php include ('header.php');?>
 
     <!--Main Content-->
@@ -32,18 +33,17 @@
                 <div class="d-flex flex-lg-row flex-column-reverse">
                     <div class="col-lg-6 d-flex flex-column justify-content-center wow fadeIn">
                         <h2 class="pt-lg-0 pt-5">
-                            Hi! I am angie creativist, designer & creative dedicated to activism, my purpose is to
-                            communicate to raise awareness on cultural, social and environmental issues.
+                        <?php echo $lang['ABOUT_SECTION_MORE_INFO']; ?>
                         </h2>
                         <div class="pt-lg-0 pt-4">
                             <a href="#" class="text-white more-info-black" data-toggle="modal"
-                                data-target="#modalAbout">More info<i class="fas fa-chevron-right"></i></a>
+                                data-target="#modalAbout"><?php echo $lang['ABOUT_SECTION_MORE_INFO_BTN']; ?><i class="fas fa-chevron-right"></i></a>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <h1 class="text-uppercase wow fadeInUp">
-                            creativist designing awareness
+                            <?php echo $lang['ABOUT_SECTION_CREATIVIST'];?>
                         </h1>
                     </div>
                 </div>
