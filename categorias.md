@@ -1,3 +1,9 @@
+== Repo ==
+$ git remote add origin-workmobile https://github.com/DSG-CODE/angiecreativist.git
+$ git push -u origin-workmobile main
+
+Donde origin-workmobile es el nombre que se le asigno al repo clonado y main es la rama en github
+
 ==Inglés==
 
 1. category=all
