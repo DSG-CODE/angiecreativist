@@ -417,10 +417,10 @@
             class="sec-lessons container-fluid d-flex justify-content-center flex-column align-items-lg-center text-white"
             id="lessons">
             <div class="row">
-                <h5 class="pl-2 pl-lg-0 wow zoomIn">Creativity Lessons</h5>
+                <h5 class="pl-2 pl-lg-0 wow zoomIn"><?php echo $lang['LESSONS_TITLE01'];?></h5>
             </div>
             <div class="row">
-                <h3 class="pl-2 pl-lg-0 wow zoomIn" style="color: #3D3D3D;">coming soon...</h3>
+                <h3 class="pl-2 pl-lg-0 wow zoomIn" style="color: #3D3D3D;"><?php echo $lang['LESSONS_TITLE02'];?></h3>
             </div>
         </section>
         <!--Termina sección Lessons-->

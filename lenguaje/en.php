@@ -187,8 +187,12 @@ $lang = array(
     "WORK_PORTFOLIO_FRONT_THE_BEST_PROGRESS" => "The best progress",
     "WORK_PORTFOLIO_FRONT_CEMEFI" => "Reunión Anual Cemefi",
     /* Termina Portfolio List Front */
-
     /* --------------- TERMINA Sección PORTFOLIO/WORK Front ---------------  */
+
+     /* --------------- Sección CREATIVITY LESSONS ---------------  */
+     "LESSONS_TITLE01" => "Creativity Lessons",
+     "LESSONS_TITLE02" => "Coming soon...",
+     /* --------------- TERMINA Sección CREATIVITY LESSONS ---------------  */
 )
 
 ?>
