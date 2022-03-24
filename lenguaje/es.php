@@ -195,6 +195,25 @@ $lang = array(
     "LESSONS_TITLE01" => "Lecciones de creatividad",
     "LESSONS_TITLE02" => "Próximamente...",
     /* --------------- TERMINA Sección CREATIVITY LESSONS ---------------  */
+
+    /* --------------- Sección CLIENTS ---------------  */
+    "CLIENTS_TITLE" => "CLIENTES",
+    /* --------------- TERMINA Sección CLIENTS ---------------  */
+
+    /* --------------- Sección BLOG ---------------  */
+    "BLOG_TITLE" => "Blog",
+    "BLOG_ARTICLE_TITLE01" => "DEFORESTACIÓN DEL AMAZONAS",
+    "BLOG_ARTICLE_CONTENT01" => "Hace un año, en todo el mundo, fuimos testigos de los grandes incendios que destruyeron y lo siguen haciendo, a uno de los pulmones más importantes del planeta...",
+    "BLOG_ARTICLE_BTN01" => "Leer más",
+
+    "BLOG_ARTICLE_TITLE02" => "¿CUBREBOCAS MÉDICO O DE TELA?",
+    "BLOG_ARTICLE_CONTENT02" => "¿Cuál es mejor opción para nosotros y el planeta? ¿Y el de tela si protege? ¿Qué pasa si no uso un N95? Si tienes dudas sobre qué es lo mejor, te invito a leer esto…",
+    "BLOG_ARTICLE_BTN02" => "Leer más",
+
+    "BLOG_ARTICLE_TITLE03" => "AHORA ESTAMOS MÁS UNIDOS QUE NUNCA",
+    "BLOG_ARTICLE_CONTENT03" => "Después de lo que vivimos en 2020, este año, somos más empáticos con el otro, somos más conscientes de nuestro planeta y estamos más unidos que nunca...",
+    "BLOG_ARTICLE_BTN03" => "Leer más",
+    /* --------------- TERMINA Sección BLOG ---------------  */
 )
 
 ?>

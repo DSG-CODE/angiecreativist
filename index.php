@@ -433,7 +433,7 @@
 
         <!-- Sección Clientes -->
         <section>
-            <h3 class="text-center py-5">CLIENTS</h3>
+            <h3 class="text-center py-5"><?php echo $lang['CLIENTS_TITLE'];?></h3>
             <div class="section-clientes">
                 <img src="img/clientes/airbnb.png" class="wow animate__delay-2s slideInUp" alt="Airbnb">
                 <img src="img/clientes/cvium.png" class="wow animate__delay-2s slideInUp" alt="CVium">
@@ -457,7 +457,7 @@
         <section class="container text-center mt-5 blog-container d-flex align-items-center justify-content-center">
             <div class="row flex-column">
                 <div class="col-12">
-                    <h3>Blog</h3>
+                    <h3><?php echo $lang['BLOG_TITLE'];?></h3>
                     <div class="container">
                         <div class="row justify-content-center">
 
@@ -466,13 +466,10 @@
                                     <div class="card-body p-0">
                                         <img class="card-img-top" src="img/blog/BLOG-PW1.jpg" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title">DEFORESTATION OF THE AMAZON</h5>
-                                            <p class="card-text">A year ago, all over the world, we witnessed the great
-                                                fires that they destroyed and continue to do so,one of the most
-                                                important lungs of the planet...</p>
+                                            <h5 class="card-title"><?php echo $lang['BLOG_ARTICLE_TITLE01'];?></h5>
+                                            <p class="card-text"><?php echo $lang['BLOG_ARTICLE_CONTENT01'];?></p>
                                             <a
-                                                href="https://www.angiecreativist.com/blog/que-tiene-que-ver-la-deforestacion-del-amazonas-con-comer-carne/">More
-                                                info <i class="fas fa-chevron-right"></i></a>
+                                                href="https://www.angiecreativist.com/blog/que-tiene-que-ver-la-deforestacion-del-amazonas-con-comer-carne/"><?php echo $lang['BLOG_ARTICLE_BTN01'];?><i class="fas fa-chevron-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -483,13 +480,9 @@
                                     <div class="card-body p-0">
                                         <img class="card-img-top" src="img/blog/Cubrebocas-la-mejor-opcion.jpg" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title">MEDICAL OR FABRIC <br> COVER?</h5>
-                                            <p class="card-text">What is the best option for us and the planet? And the
-                                                cloth does protect? What if I don't use an N95? If you have doubts about
-                                                what is the best, I invite you to read this ...
-                                            </p>
-                                            <a href="https://www.angiecreativist.com/blog/cubrebocas-medico-o-de-tela/">More
-                                                info <i class="fas fa-chevron-right"></i></a>
+                                            <h5 class="card-title"><?php echo $lang['BLOG_ARTICLE_TITLE02'];?></h5>
+                                            <p class="card-text"><?php echo $lang['BLOG_ARTICLE_CONTENT02'];?></p>
+                                            <a href="https://www.angiecreativist.com/blog/cubrebocas-medico-o-de-tela/"><?php echo $lang['BLOG_ARTICLE_BTN02'];?> <i class="fas fa-chevron-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -500,15 +493,10 @@
                                     <div class="card-body p-0">
                                         <img class="card-img-top" src="img/blog/2021.jpg" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title">NOW WE ARE MORE UNITED THAN EVER</h5>
-                                            <p class="card-text">After what we live in 2020,
-                                                this year, we are more empathetic with
-                                                each other, we are more aware of our
-                                                planet and we are more united than ever.
-                                            </p>
+                                            <h5 class="card-title"><?php echo $lang['BLOG_ARTICLE_TITLE03'];?></h5>
+                                            <p class="card-text"><?php echo $lang['BLOG_ARTICLE_CONTENT03'];?></p>
                                             <a
-                                                href="https://www.angiecreativist.com/blog/ahora-estamos-mas-unidos-que-nunca/">More
-                                                info <i class="fas fa-chevron-right"></i></a>
+                                                href="https://www.angiecreativist.com/blog/ahora-estamos-mas-unidos-que-nunca/"><?php echo $lang['BLOG_ARTICLE_BTN03'];?> <i class="fas fa-chevron-right"></i></a>
                                         </div>
                                     </div>
                                 </div>

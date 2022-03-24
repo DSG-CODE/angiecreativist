@@ -193,6 +193,25 @@ $lang = array(
      "LESSONS_TITLE01" => "Creativity Lessons",
      "LESSONS_TITLE02" => "Coming soon...",
      /* --------------- TERMINA Sección CREATIVITY LESSONS ---------------  */
+
+     /* --------------- Sección CLIENTS ---------------  */
+     "CLIENTS_TITLE" => "CLIENTS",
+     /* --------------- TERMINA Sección CLIENTS ---------------  */
+
+     /* --------------- Sección BLOG ---------------  */
+     "BLOG_TITLE" => "Blog",
+     "BLOG_ARTICLE_TITLE01" => "DEFORESTATION OF THE AMAZON",
+     "BLOG_ARTICLE_CONTENT01" => "A year ago, all over the world, we witnessed the great fires that they destroyed and continue to do so,one of the most important lungs of the planet...",
+     "BLOG_ARTICLE_BTN01" => "More info",
+
+     "BLOG_ARTICLE_TITLE02" => "MEDICAL OR FABRIC <br> COVER?",
+     "BLOG_ARTICLE_CONTENT02" => "What is the best option for us and the planet? And the cloth does protect? What if I don't use an N95? If you have doubts about what is the best, I invite you to read this ...",
+     "BLOG_ARTICLE_BTN02" => "More info",
+
+     "BLOG_ARTICLE_TITLE03" => "NOW WE ARE MORE UNITED THAN EVER",
+     "BLOG_ARTICLE_CONTENT03" => "After what we live in 2020, this year, we are more empathetic with each other, we are more aware of our planet and we are more united than ever...",
+     "BLOG_ARTICLE_BTN03" => "More info",
+     /* --------------- TERMINA Sección BLOG ---------------  */
 )
 
 ?>
