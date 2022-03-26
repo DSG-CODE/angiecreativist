@@ -5,10 +5,10 @@
                     <!-- Copyright -->
                     <div class="col-md-6 py-5">
                         <div class="row justify-content-lg-start justify-content-center">
-                            <h5>Made with love by</h5> <img src="img/angie-footer.png" class="pl-2" alt="">
+                            <h5><?php echo $lang['FOOTER_MADE_WITH'];?></h5> <img src="img/angie-footer.png" class="pl-2" alt="">
                         </div>
                         <div class="row justify-content-lg-start justify-content-center">
-                            <p class="text-white">© 2022 ALL RIGHTS RESERVED</p>
+                            <p class="text-white">© <?php echo date("Y"); ?> <?php echo $lang['FOOTER_ALL_RIGHTS'];?></p>
                         </div>
                     </div>
 

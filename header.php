@@ -50,7 +50,7 @@
             <div></div>
         </div>
         <h4 class="text-white pt-4 text-center d-none d-md-block"><?php echo $lang['COMING_SOON_PART1'];?> <?php echo $lang['COMING_SOON_PART2'];?></h4>
-        <h4 class="text-white pt-4 text-center d-block d-md-none"><?php echo $lang['COMING_SOON_PART1'];?> <br /> <?php echo $lang['COMING_SOON_PART2'];?></h4>
+        <h4 class="text-white pt-4 text-center d-block d-md-none"><?php echo $lang['COMING_SOON_PART2'];?> <br /> <?php echo $lang['COMING_SOON_PART2'];?></h4>
     </div>
     <!-- Termina Preload -->
 

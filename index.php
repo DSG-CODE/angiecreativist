@@ -513,18 +513,18 @@
         <!-- Sección de Contacto -->
         <section class="container-fluid contact text-center" id="contacto">
             <div class="container py-5">
-                <h3 class="text-white my-4">thanks for getting here!</h3>
-                <h4 class="mt-lg-5">YOU LIKE WHAT YOU SEE?</h4>
-                <a href="#" class="btn my-md-3 mb-5" data-toggle="modal" data-target="#formContactMe">CONTACT ME!</a>
+                <h3 class="text-white my-4"><?php echo $lang['CONTACT_TITLE'];?></h3>
+                <h4 class="mt-lg-5"><?php echo $lang['CONTACT_SUBTITLE_01'];?></h4>
+                <a href="#" class="btn my-md-3 mb-5" data-toggle="modal" data-target="#formContactMe"><?php echo $lang['CONTACT_BTN_01'];?></a>
 
-                <h4 class="mt-lg-5">YOU WANT WE WORK TOGETHER?</h4>
-                <a href="#" class="btn my-md-3 mb-5" data-toggle="modal" data-target="#formWork">LET’S DO THIS!</a>
+                <h4 class="mt-lg-5"><?php echo $lang['CONTACT_SUBTITLE_02'];?></h4>
+                <a href="#" class="btn my-md-3 mb-5" data-toggle="modal" data-target="#formWork"><?php echo $lang['CONTACT_BTN_02'];?></a>
 
-                <h4 class="mt-lg-5">EMAIL</h4>
-                <p class="text-white text-uppercase">hello@angiecreativist.com</p>
+                <h4 class="mt-lg-5"><?php echo $lang['CONTACT_TITLE_EMAIL'];?></h4>
+                <p class="text-white text-uppercase"><?php echo $lang['CONTACT_CONTENT_EMAIL'];?></p>
 
-                <h4 class="mt-lg-5">PHONE NUMBER</h4>
-                <p class="text-white">+52(55)86161015</p>
+                <h4 class="mt-lg-5"><?php echo $lang['CONTACT_TITLE_PHONE'];?></h4>
+                <p class="text-white"><?php echo $lang['CONTACT_CONTENT_PHONE'];?></p>
             </div>
         </section>
         <!-- Termina Sección de Contacto -->
@@ -2662,7 +2662,7 @@
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">You like my work, contact me!</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel"><?php echo $lang['CONTACT_TITLE_FORM_01'];?></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true"><img src="img/Cerrar-blank.svg" style="width:20px;" alt=""></span>
                         </button>
@@ -2674,25 +2674,25 @@
                                 <div class="row">
                                     <div class="input-group mb-4">
                                         <input type="text" id="nombre" name="nombre">
-                                        <label for="nombre" class="label">Name:</label>
+                                        <label for="nombre" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_NAME01'];?></label>
                                     </div>
 
                                     <div class="input-group mb-4">
                                         <input type="email" id="mail" name="mail">
-                                        <label for="email" class="label">Email:</label>
+                                        <label for="email" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_EMAIL01'];?></label>
                                     </div>
 
                                     <div class="input-group mb-4">
                                         <input type="text" name="mensaje" id="mensaje" cols="4" rows="6">
-                                        <label for="textarea" class="label">Message:</label>
+                                        <label for="textarea" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE01'];?></label>
                                     </div>
 
                                     <div class="input-group checkbox mb-4">
                                         <input type="checkbox" name="terminos" id="terminos" value="true">
-                                        <label for="terminos">I accept terms and conditions</label>
+                                        <label for="terminos"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX01'];?></label>
                                     </div>
                                     <div class="container d-flex justify-content-lg-end  justify-content-center">
-                                        <input class="mb-3" type="submit" id="btn-submit" value="SEND">
+                                        <input class="mb-3" type="submit" id="btn-submit" value="<?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_BTN01'];?>">
                                     </div>
                                 </div>
                             </form>
@@ -2712,7 +2712,7 @@
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Let's work together!</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel"><?php echo $lang['CONTACT_TITLE_FORM_02'];?></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true"><img src="img/Cerrar-blank.svg" style="width:20px;" alt=""></span>
                         </button>
@@ -2724,7 +2724,7 @@
                                 <div class="row">
                                     <div class="input-group mb-4">
                                         <input type="text" id="nombre" name="nombre">
-                                        <label for="nombre" class="label">Name:</label>
+                                        <label for="nombre" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_NAME02'];?></label>
                                     </div>
 
                                     <div class="container-fluid p-0">
@@ -2732,14 +2732,14 @@
                                             <div class="col-lg-6">
                                                 <div class="input-group mb-4">
                                                     <input type="email" id="mail" name="mail">
-                                                    <label for="email" class="label">Email:</label>
+                                                    <label for="email" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_EMAIL02'];?></label>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6">
                                                 <div class="input-group mb-4">
                                                     <input type="email" id="mail" name="mail">
-                                                    <label for="email" class="label">Company:</label>
+                                                    <label for="email" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_COMPANY'];?></label>
                                                 </div>
                                             </div>
                                         </div>
@@ -2748,15 +2748,15 @@
 
                                     <div class="input-group mb-4">
                                         <input type="text" name="mensaje" id="mensaje" cols="4" rows="6">
-                                        <label for="textarea" class="label">Tell me your project:</label>
+                                        <label for="textarea" class="label"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE02'];?></label>
                                     </div>
 
                                     <div class="input-group checkbox mb-4">
                                         <input type="checkbox" name="terminos" id="terminos" value="true">
-                                        <label for="terminos">I accept terms and conditions</label>
+                                        <label for="terminos"><?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX02'];?></label>
                                     </div>
                                     <div class="container d-flex justify-content-lg-end  justify-content-center">
-                                        <input class="mb-3" type="submit" id="btn-submit" value="SEND">
+                                        <input class="mb-3" type="submit" id="btn-submit" value="<?php echo $lang['CONTACT_TITLE_FORM_INPUTTEXT_BTN02'];?>">
                                     </div>
                                 </div>
                             </form>

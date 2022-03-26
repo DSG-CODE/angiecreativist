@@ -212,6 +212,43 @@ $lang = array(
      "BLOG_ARTICLE_CONTENT03" => "After what we live in 2020, this year, we are more empathetic with each other, we are more aware of our planet and we are more united than ever...",
      "BLOG_ARTICLE_BTN03" => "More info",
      /* --------------- TERMINA Sección BLOG ---------------  */
+
+     /* --------------- Sección Contacto ---------------  */
+     "CONTACT_TITLE" => "Thanks for getting here!",
+     "CONTACT_SUBTITLE_01" => "YOU LIKE WHAT YOU SEE?",
+     "CONTACT_BTN_01" => "CONTACT ME!",
+     "CONTACT_SUBTITLE_02" => "YOU WANT WE WORK TOGETHER?",
+     "CONTACT_BTN_02" => "LET’S DO THIS!",
+     "CONTACT_TITLE_EMAIL" => "EMAIL",
+     "CONTACT_CONTENT_EMAIL" => "hello@angiecreativist.com",
+     "CONTACT_TITLE_PHONE" => "PHONE NUMBER",
+     "CONTACT_CONTENT_PHONE" => "+52(55)86161015",
+
+     /* FORMULARIO 1 */
+     "CONTACT_TITLE_FORM_01" => "You like my work, contact me!",
+     "CONTACT_TITLE_FORM_INPUTTEXT_NAME01" => "Name:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_EMAIL01" => "Email:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE01" => "Message:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX01" => "I accept terms and conditions",
+     "CONTACT_TITLE_FORM_INPUTTEXT_BTN01" => "SEND",
+     /* TERMINAFORMULARIO 1 */
+
+     /* FORMULARIO 2 */
+     "CONTACT_TITLE_FORM_02" => "Let's work together!",
+     "CONTACT_TITLE_FORM_INPUTTEXT_NAME02" => "Name:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_EMAIL02" => "Email:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_COMPANY" => "Company:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE02" => "Tell me your project:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX02" => "I accept terms and conditions",
+     "CONTACT_TITLE_FORM_INPUTTEXT_BTN02" => "SEND",
+     /* TERMINAFORMULARIO 2 */
+     /* --------------- Termina Sección Contacto ---------------  */
+
+     /* --------------- Sección FOOTER ---------------  */
+     "FOOTER_MADE_WITH" => "Made with love by",
+     "FOOTER_ALL_RIGHTS" => "ALL RIGHTS RESERVED",
+     /* --------------- Termina Sección FOOTER ---------------  */
 )
 
 ?>
+

@@ -214,6 +214,42 @@ $lang = array(
     "BLOG_ARTICLE_CONTENT03" => "Después de lo que vivimos en 2020, este año, somos más empáticos con el otro, somos más conscientes de nuestro planeta y estamos más unidos que nunca...",
     "BLOG_ARTICLE_BTN03" => "Leer más",
     /* --------------- TERMINA Sección BLOG ---------------  */
+
+     /* --------------- Sección Contacto ---------------  */
+     "CONTACT_TITLE" => "¡GRACIAS POR LLEGAR HASTA ACÁ!",
+     "CONTACT_SUBTITLE_01" => "¿TE GUSTO LO QUE VISTE?",
+     "CONTACT_BTN_01" => "¡CONTÁCTAME!",
+     "CONTACT_SUBTITLE_02" => "¿QUIERES QUE TRABAJEMOS JUNTOS?",
+     "CONTACT_BTN_02" => "¡HAGÁMOSLO!",
+     "CONTACT_TITLE_EMAIL" => "EMAIL",
+     "CONTACT_CONTENT_EMAIL" => "hello@angiecreativist.com",
+     "CONTACT_TITLE_PHONE" => "NÚMERO",
+     "CONTACT_CONTENT_PHONE" => "+52(55)86161015",
+
+     /* FORMULARIO 1 */
+     "CONTACT_TITLE_FORM_01" => "Te gusta mi trabajo, contáctame!",
+     "CONTACT_TITLE_FORM_INPUTTEXT_NAME01" => "Nombre:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_EMAIL01" => "Email:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE01" => "Mensaje:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX01" => "Acepto los términos y condiciones",
+     "CONTACT_TITLE_FORM_INPUTTEXT_BTN01" => "ENVIAR",
+     /* TERMINAFORMULARIO 1 */
+
+     /* FORMULARIO 2 */
+     "CONTACT_TITLE_FORM_02" => "¡Trabajemos juntos!",
+     "CONTACT_TITLE_FORM_INPUTTEXT_NAME02" => "Nombre:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_EMAIL02" => "Email:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_COMPANY" => "Empresa:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_MESSAGE02" => "Cuentame de tu proyecto:",
+     "CONTACT_TITLE_FORM_INPUTTEXT_CHECKBOX02" => "Acepto los términos y condiciones",
+     "CONTACT_TITLE_FORM_INPUTTEXT_BTN02" => "ENVIAR",
+     /* TERMINAFORMULARIO 2 */
+     /* --------------- Termina Sección Contacto ---------------  */
+
+     /* --------------- Sección FOOTER ---------------  */
+     "FOOTER_MADE_WITH" => "Hecho con amor por",
+     "FOOTER_ALL_RIGHTS" => "TODOS LOS DERECHOS RESERVADOS",
+     /* --------------- Termina Sección FOOTER ---------------  */
 )
 
 ?>
