@@ -24,6 +24,7 @@ $lang = array(
     "MENU_CONTACT" => "Contact",
     "MENU_LANGUAJE_ES" => "ES",
     "MENU_LANGUAJE_EN" => "EN",
+    "MENU_LANGUAJE_LINK" => "?lang=en",
     /* --------------- Termina Sección MENU DESKTOP/MOBILE ---------------  */
 
     /* --------------- Sección ABOUT ---------------  */
@@ -248,6 +249,29 @@ $lang = array(
      "FOOTER_MADE_WITH" => "Made with love by",
      "FOOTER_ALL_RIGHTS" => "ALL RIGHTS RESERVED",
      /* --------------- Termina Sección FOOTER ---------------  */
+
+
+
+     /* --------------- ///////////////////// Sección PORTFOLIO ///////////////////// ---------------  */
+     "PORTFOLIO_MODAL_WORK" => "Works",
+
+     /* --------------- Porfolio taxes-airbnb ---------------  */
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_TITLE" => "TAXES",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_SUBTITLE" => "Infographics for Airbnb Costa Rica",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTENT" => "What do Airbnb Mexico Hosts have in common with Costa
+     Rica? That each one of them must be updated, with the new tax laws of your
+     government, to avoid high withholdings. Following the success of the first
+     campaign, carried out in Mexico, and with the aim of communicating in a
+     friendly manner, a complicated issue for society, a series of Infographics
+     were created to help people understand this issue more clearly.",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR" => "CONTRIBUTOR:",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic",
+
+     /* --------------- Termina Porfolio taxes-airbnb -------  */
+
+
+     /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
+
 )
 
 ?>

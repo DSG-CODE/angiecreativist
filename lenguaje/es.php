@@ -23,6 +23,7 @@ $lang = array(
     "MENU_CONTACT" => "Contacto",
     "MENU_LANGUAJE_ES" => "ES",
     "MENU_LANGUAJE_EN" => "EN",
+    "MENU_LANGUAJE_LINK" => "?lang=es",
     /* --------------- Termina Sección MENU DESKTOP/MOBILE ---------------  */
 
     /* --------------- Sección ABOUT ---------------  */
@@ -250,6 +251,28 @@ $lang = array(
      "FOOTER_MADE_WITH" => "Hecho con amor por",
      "FOOTER_ALL_RIGHTS" => "TODOS LOS DERECHOS RESERVADOS",
      /* --------------- Termina Sección FOOTER ---------------  */
+
+
+     /* --------------- ///////////////////// Sección PORTFOLIO ///////////////////// ---------------  */
+
+     "PORTFOLIO_MODAL_WORK" => "Proyectos",
+
+     /* --------------- Porfolio taxes-airbnb ---------------  */
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_TITLE" => "IMPUESTOS",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_SUBTITLE" => "Infographics for Airbnb Costa Rica",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTENT" => "¿Qué tienen en común los Anfitriones de Airbnb México
+     con Costa Rica? Que cada uno de ellos, debe estar actualizado, con las
+     nuevas leyes de impuestos de su gobierno, para evitar retenciones altas.
+     Siguiendo el éxito de la primera campaña, llevada a cabo en México, y con el
+     objetivo de comunicar amigablemente, un tema complicado para la sociedad, se
+     crearon una serie de Infografías, para ayudar a las personas a entender con
+     mayor claridad, este tema.",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR" => "COLABORADOR:",
+     "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic",
+     /* --------------- Termina Porfolio taxes-airbnb -------  */
+
+
+     /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
 )
 
 ?>

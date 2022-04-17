@@ -1,35 +1,37 @@
 @import "variables";
 
 //Modal Works (Portafolio)
-.modal-body{
+.modal-body {
     font-family: "Seravek";
     font-size: 18px;
-    .color-primary, h4{
+
+    .color-primary,
+    h4 {
         color: $color-primary;
     }
 
-    .titleAbout-modal{
+    .titleAbout-modal {
         font-family: "IntroW01-BlackCaps";
         font-size: 2.5em;
         color: $color-black;
     }
 
-    h2{
+    h2 {
         font-family: "IntroW01-BlackCaps";
         font-size: 4rem;
     }
 
-    h3{
-        
+    h3 {
+
         font-family: "Seravek-ExtraLightItalic";
         font-size: 2.5rem;
     }
 
-    h4{
+    h4 {
         font-family: "Seravek-Bold";
     }
 
-    h5{
+    h5 {
         font-family: "IntroW01-BlackCaps";
         font-size: 30px;
         color: $color-black;
@@ -38,24 +40,26 @@
     .sidebar {
         position: sticky;
         top: 5%;
-      }
+    }
 }
 
-@media only screen and(max-width:700px){
-    .modal-body{
-        h2{
+
+
+@media only screen and(max-width:700px) {
+    .modal-body {
+        h2 {
             font-size: 2.5rem;
         }
     }
 }
 
-@media only screen and(max-width:699px){
-    .modal-body{
-        h3{
+@media only screen and(max-width:699px) {
+    .modal-body {
+        h3 {
             font-size: 2rem;
         }
 
-        .titleAbout-modal{
+        .titleAbout-modal {
             font-family: "IntroW01-BlackCaps";
             font-size: 2em;
         }
@@ -63,30 +67,38 @@
 
 }
 
-.modal-lg, .modal-xl {
+.modal-lg,
+.modal-xl {
     max-width: 100%;
     margin: auto;
 }
+
 //Termina Modal Works (Portafolio)
 
 //Modal Contact
 .modal-sm {
     max-width: 60%;
     margin: auto;
-    .modal-content{
+
+    .modal-content {
         background: $color-primary;
         color: $color-light;
-        .modal-title{
+
+        .modal-title {
             font-family: "Seravek-Bold";
             font-size: 2em;
         }
+
         //Estilos Formularios
-        .contenedor-formulario{
+        .contenedor-formulario {
             width: 90%;
             margin: auto;
-            .input-group{
+
+            .input-group {
                 position: relative;
-                input[type="text"],input[type="email"]{
+
+                input[type="text"],
+                input[type="email"] {
                     font-family: "Seravek";
                     font-size: 16px;
                     width: 100%;
@@ -95,16 +107,20 @@
                     background: none;
                     border: none;
                     border-bottom: 1px solid $color-light;
-                    &:focus,&:active{
+
+                    &:focus,
+                    &:active {
                         outline: none;
                         border-bottom: 2px solid #f3f3f3;
-                    &.error{
-                        border-bottom: crimson 2px solid;
+
+                        &.error {
+                            border-bottom: crimson 2px solid;
+                        }
                     }
-                    }  
                 }
-                label{
-                    &.label{
+
+                label {
+                    &.label {
                         position: absolute;
                         top: 16px;
                         left: 0;
@@ -112,15 +128,17 @@
                         line-height: 16px;
                         margin-left: 16px;
                         transition: all .3s ease;
-                        &.active{
-                            top:-12px;
+
+                        &.active {
+                            top: -12px;
                             font-size: 12px;
                             line-height: 12px;
                             color: rgba($color-light, $alpha: .5);
                         }
                     }
                 }
-                &.checkbox label{
+
+                &.checkbox label {
                     display: inline-block;
                     cursor: pointer;
                     position: relative;
@@ -129,11 +147,12 @@
                     transition: all .3s ease;
                     display: flex;
                     align-items: center;
-                    &:hover{
+
+                    &:hover {
                         background: rgba($color-light, $alpha: .5);
                     }
 
-                    &:before{
+                    &:before {
                         content: "";
                         display: inline-block;
                         width: 17px;
@@ -146,28 +165,33 @@
                     }
                 }
 
-                &.error{
-                    label{
+                &.error {
+                    label {
                         color: $color-error;
-                        &:hover{
+
+                        &:hover {
                             background: rgba($color-error, $alpha: .2)
                         }
-                        &:before{
+
+                        &:before {
                             border: $color-error solid 2px;
                         }
                     }
                 }
 
-                &.checkbox{
-                    label:before{
+                &.checkbox {
+                    label:before {
                         border-radius: 3px;
                     }
-                    input[type="checkbox"]{
+
+                    input[type="checkbox"] {
                         display: none;
-                        &:checked + label:before{
+
+                        &:checked+label:before {
                             display: none;
                         }
-                        &:checked + label{
+
+                        &:checked+label {
                             padding: 5px 15px;
                             color: $color-light;
                             background: #F5474E;
@@ -176,7 +200,8 @@
                     }
                 }
             }
-            input[type="submit"]{
+
+            input[type="submit"] {
                 background: $color-light;
                 color: $color-primary;
                 border-radius: 30px;
@@ -187,12 +212,12 @@
                 padding: 10px;
                 width: 200px;
                 transition: all .3s ease;
-                &:hover{
+
+                &:hover {
                     font-size: 1.5em;
                 }
             }
         }
-        
+
     }
 }
-

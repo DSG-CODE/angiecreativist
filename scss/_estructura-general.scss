@@ -247,8 +247,10 @@ a.more-info-black {
     color: $color-light;
 
     &:hover {
-        width: 60px;
-        height: 60px;
-        color: $color-black;
+        width: 55px;
+        height: 55px;
+        i{
+            color: $color-black;
+        }
     }
 }
