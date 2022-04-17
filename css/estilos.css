@@ -273,7 +273,7 @@ a.more-info-black:hover {
   height: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #F3F3F1;
+  color: #F3F3F1 !important;
 }
 .btnClose:hover {
   width: 55px;

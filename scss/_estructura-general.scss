@@ -244,7 +244,7 @@ a.more-info-black {
     height: 50px;
     cursor: pointer;
     transition: all .3s ease;
-    color: $color-light;
+    color: $color-light!important;
 
     &:hover {
         width: 55px;

@@ -37,8 +37,8 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="200" style="box-sizing: border-box;"
     ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="hiddent">
 
-    <footer class="container-fluid mb-4 mt-0" style="background: #fff;">
+    <header class="container-fluid mb-4 mt-0" style="background: #fff;">
     <div class="modal-footer border-0 d-flex justify-content-center justify-content-lg-end">
-        <a href="../index.php<?php echo $lang['MENU_LANGUAJE_LINK'];?>#work" class="btnClose d-flex justify-content-center align-items-center"><i class="fa-solid fa-arrow-left-long"></i></a>
+        <a onclick="back()" class="btnClose d-flex justify-content-center align-items-center"><i class="fa-solid fa-arrow-left-long"></i></a>
     </div>
-</footer>
+</header>

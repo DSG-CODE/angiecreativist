@@ -1,7 +1,6 @@
 <footer class="container-fluid" style="background: #fff;">
     <div class="modal-footer border-0 d-flex justify-content-center justify-content-lg-end mt-3">
-        <a href="../index.php<?php echo $lang['MENU_LANGUAJE_LINK'];?>#work" class="btnClose d-flex justify-content-center align-items-center" data-dismiss="modal"><i
-                class="fas fa-times"></i></a>
+    <a onclick="back()" class="btnClose d-flex justify-content-center align-items-center"><i class="fas fa-times"></i></a>
     </div>
 </footer>
 <!-- Termina Footer -->
@@ -37,8 +36,12 @@
 <!-- Efectos Scroll - AOS-->
 <!--Menú Movil-->
 <script src="../js/menumovil.js"></script>
-<!--Formulario Validaciones-->
-<script src="../js/formulario.js"></script>
+<!--Retroceder página-->
+<script type="text/javascript">
+      function back(){
+        history.back();
+      }
+    </script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js">
 </script>
