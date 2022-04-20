@@ -271,6 +271,55 @@ $lang = array(
      "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic",
      /* --------------- Termina Porfolio taxes-airbnb -------  */
 
+     /* --------------- Porfolio Sube tu RFC airbnb ---------------  */
+     "PORTFOLIO_MODAL_RFC_AIRBNB_TITLE" => "SUBE TU RFC",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_SUBTITLE" => "Campaign for Airbnb Mexico hosts",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTENT" => "
+     ¿Cómo comunicamos a los anfitriones de Airbnb México que
+     tienen que subir su RFC a la plataforma, para evitar retenciones altas? Bajo
+     un concepto amigable y divertido, se crearon varios personajes, los
+     protagonistas: Fabiana & Randy, dos astronautas que acompañarán a los
+     anfitriones, en esta nueva aventura a través de la Galaxia, rumbo a la Luna
+     de Airbnb para cumplir su misión: Evitar las retenciones altas y estar en
+     paz con SATurno y el gobernante sol.",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_01" => "COLABORADOR:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic ",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_02" => "DIRECCIÓN ANIMACIÓN, GUIÓN & STORYBOARD:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST02" => "/Gerardo Velazquez",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_03" => "ANIMACIÓN:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST03" => "/angie.workshop",
+     /* --------- Termina Porfolio Sube tu RFC airbnb ---------------  */
+
+     /* --------------- Porfolio - Viaja Seguro  airbnb ---------------  */
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_TITLE" => "VIAJA SEGURO",
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_SUBTITLE" => "Infographic for Airbnb Mexico in alliance with CAPUFE",
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_CONTENT" => '
+     “México por Tierra" es una iniciativa de Airbnb en
+     alianza con WWF y FEMATUR, para promover la reactivación turística nacional,
+     de forma segura, responsable y sostenible. El objetivo fue rediseñar una
+     infografía, en alianza con CAPUFE, para que las personas viajen de manera
+     más segura y ayuden a las economías locales, promoviendo los viajes
+     sostenible a través de 5 rutas.',
+     /* --------------- Termina Porfolio - Viaja Seguro  airbnb ---------------  */
+
+     /* --------------- Porfolio - IMAGINE ---------------  */
+     "PORTFOLIO_MODAL_IMAGINE_TITLE" => "Imagine",
+     "PORTFOLIO_MODAL_IMAGINE_SUBTITLE" => 'Poster for “Reading and a Better Life” - 2020 “World
+     Book Day” International Public Welfare Poster Design Exhibition',
+     "PORTFOLIO_MODAL_IMAGINE_CONTENT" => "
+     Cuando leemos un libro, nuestra mente viaja a otro
+     mundo, historia, momento y tiempo. Para el concepto del cartel, la clave
+     para poder acceder al libro es estar dispuesto a usar tu imaginación, a
+     través del juego de sopa de letras, descifras la palabra y puedes ingresar.
+     La imaginación es infinita y es la esencia de la lectura, se nos presentan
+     letras, palabras, frases y oraciones que ya cuentan una historia, pero en
+     nuestra mente le damos otro valor y le damos vida a esos pensamientos usando
+     nuestra imaginación.",
+     "PORTFOLIO_MODAL_IMAGINE_FINALIST" => "
+     Finalista – Top 100 mejores carteles en el mundo por el Reader Publishing Group Co., Ltd. y The New Youth Designers Alliance",
+     /* --------------- Termina Porfolio - IMAGINE ---------------  */
+
+
 
      /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
 )

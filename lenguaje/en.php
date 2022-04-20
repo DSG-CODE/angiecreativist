@@ -255,7 +255,7 @@ $lang = array(
      /* --------------- ///////////////////// Sección PORTFOLIO ///////////////////// ---------------  */
      "PORTFOLIO_MODAL_WORK" => "Works",
 
-     /* --------------- Porfolio taxes-airbnb ---------------  */
+     /* --------------- Porfolio - Taxes-airbnb ---------------  */
      "PORTFOLIO_MODAL_TAXES_AIRBNB_TITLE" => "TAXES",
      "PORTFOLIO_MODAL_TAXES_AIRBNB_SUBTITLE" => "Infographics for Airbnb Costa Rica",
      "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTENT" => "What do Airbnb Mexico Hosts have in common with Costa
@@ -267,7 +267,53 @@ $lang = array(
      "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR" => "CONTRIBUTOR:",
      "PORTFOLIO_MODAL_TAXES_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic",
 
-     /* --------------- Termina Porfolio taxes-airbnb -------  */
+     /* --------------- Termina - Porfolio taxes-airbnb -------  */
+
+     /* --------------- Porfolio - Sube tu RFC airbnb ---------------  */
+     "PORTFOLIO_MODAL_RFC_AIRBNB_TITLE" => "SUBE TU RFC",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_SUBTITLE" => "Campaign for Airbnb Mexico hosts",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTENT" => "
+     How do we communicate to Airbnb Mexico hosts that they
+     have to upload their RFC to the platform, to avoid high retention? Under a
+     friendly and fun concept, several characters were created, the protagonists:
+     Fabiana & Randy, two astronauts who will accompany the hosts, in this new
+     adventure through the Galaxy, heading to the Airbnb Moon to fulfill their
+     mission: Avoid the High retentions and be at peace with Saturn and the Sun
+     Ruler.",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_01" => "CONTRIBUTOR:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST01" => "/erick_pic ",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_02" => "DIRECTION ANIMATION, SCRIPT & STORYBOARD:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST02" => "/Gerardo Velazquez",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_03" => "ANIMATION:",
+     "PORTFOLIO_MODAL_RFC_AIRBNB_CONTRIBUTOR_LIST03" => "/angie.workshop",
+     /* --------- Termina Porfolio - Sube tu RFC airbnb ---------------  */
+
+     /* --------------- Porfolio - Viaja Seguro airbnb ---------------  */
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_TITLE" => "VIAJA SEGURO",
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_SUBTITLE" => "Infographic for Airbnb Mexico in alliance with CAPUFE",
+     "PORTFOLIO_MODAL_VIAJASEGURO_AIRBNB_CONTENT" => '
+     "México por Tierra" is an initiative of Airbnb in
+     alliance with WWF and FEMATUR, to promote the national tourist reactivation,
+     in a safe, responsible and sustainable way. The objective was to redesign an
+     infographic, in alliance with CAPUFE, so that people travel from safer ways
+     and help local economies, promoting sustainable travel through 5 routes.',
+     /* --------------- Termina Porfolio - Viaja Seguro airbnb ---------------  */
+
+     /* --------------- Porfolio - IMAGINE ---------------  */
+     "PORTFOLIO_MODAL_IMAGINE_TITLE" => "Imagine",
+     "PORTFOLIO_MODAL_IMAGINE_SUBTITLE" => 'Poster for “Reading and a Better Life” - 2020 “World
+     Book Day” International Public Welfare Poster Design Exhibition',
+     "PORTFOLIO_MODAL_IMAGINE_CONTENT" => "
+     When we read a book, our mind travels to another world,
+     history, moment and time. For the concept of the poster, the key to being
+     able to access the book is to be willing to use your imagination, through
+     the alphabet soup game, you decipher the word and you can enter. Imagination
+     is infinite and is the essence of reading, we are presented with letters,
+     words, phrases and sentences that already tell a story, but in our mind we
+     give it another value and give life to those thoughts using our imagination.",
+     "PORTFOLIO_MODAL_IMAGINE_FINALIST" => "
+     Finalist – Top 100 best posters in the world by Reader Publishing Group Co., Ltd. and the New Youth Designers Alliance.",
+     /* --------------- Termina Porfolio - IMAGINE ---------------  */
 
 
      /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
