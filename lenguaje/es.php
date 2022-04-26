@@ -319,7 +319,61 @@ $lang = array(
      Finalista – Top 100 mejores carteles en el mundo por el Reader Publishing Group Co., Ltd. y The New Youth Designers Alliance",
      /* --------------- Termina Porfolio - IMAGINE ---------------  */
 
+     /* --------------- Porfolio - Casa Viva         ---------------  */
+     "PORTFOLIO_MODAL_CASAVIVA_TITLE" => "CASA VIVA",
+     "PORTFOLIO_MODAL_CASAVIVA_SUBTITLE" => "Graphic Identity & Web Page Design for CASA VIVA - Cultural Creative Space in Mexico",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTENT" => "
+     Este proyecto fue creado con la intención de crear un
+     espacio creativo que explote los talentos de cada persona y establezca
+     conexiones entre comunidades de diferentes partes del mundo. Ubicado en el
+     corazón de Roma Norte, Ciudad de México. Casa Viva ofrece a quienes la
+     visitan, un espacio donde aprender sobre diferentes culturas del mundo,
+     tradiciones de la Ciudad de México, eventos locales y nativos del país, así
+     como experiencias que enriquecen el alma y el espíritu.",
+     "PORTFOLIO_MODAL_CASAVIVA_FINALIST01" => "FINALISTA - PREMIO A! DISEÑO 2020 - CATEGORÍA: IDENTIDAD",
+     "PORTFOLIO_MODAL_CASAVIVA_FINALIST02" => "FINALISTA - PREMIO A! DISEÑO 2020 - CATEGORÍA: PÁGINA WEB",
+     "PORTFOLIO_MODAL_CASAVIVA_PROYECT" => "WEB SITE:",
+     "PORTFOLIO_MODAL_CASAVIVA_PROYECT_LIST" => "https://lacasaviva.mx",
+     "PORTFOLIO_MODAL_CASAVIVA_RRS" => "INSTAGRAM:",
+     "PORTFOLIO_MODAL_CASAVIVA_RRS_LIST" => "/lacasavivamx:",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTRIBUTOR" => "COLABORADOR:",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTRIBUTOR_LIST" => "/luiyigan",
+     /* --------------- Termina Porfolio - Casa Viva ---------------  */
 
+     /* --------------- Porfolio - Contigo Siempre ---------------  */
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_TITLE" => "CONTIGO SIEMPRE ",
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_SUBTITLE" => "Poster for “Soldados de Amor” - International Day for the prevention of Childhood Cancer",
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_CONTENT" => "
+     El Cáncer Infantil es una de las principales causas de
+     muerte entre niños y adolescentes de todo el mundo.Contigo Siempre, es un
+     homenaje a todos los oncólogos de México, por el gran labor que hacen al
+     cuidar y proteger, a estos grandes seres llenos de vida. El ave es un ser de
+     libertad infinita y fue la inspiración, para reflejar toda esa alegría y
+     ganas de vivir de los niños y niñas de todo el mundo.",
+     /* --------------- Termina Porfolio - Contigo Siempre ---------------  */
+     
+     /* --------------- Porfolio - Toc Toc ---------------  */
+     "PORTFOLIO_MODAL_TOCTOC_TITLE" => "toc toc",
+     "PORTFOLIO_MODAL_TOCTOC_SUBTITLE" => "Graphic Identity for toc toc Mexico- Food Brand",
+     "PORTFOLIO_MODAL_TOCTOC_CONTENT" => "
+     Este proyecto está dedicado a todos los jóvenes que
+     buscan alcanzar sus metas y sueños, pero que necesitan una buena dosis de
+     optimismo y energía. <br /><br />
+     Toc Toc nació para ayudar a estas personas a lograr esto, a través de desayunos de calidad, con un concepto fresco, amigable y moderno.",
+     "PORTFOLIO_MODAL_TOCTOC_FINALIST" => "FINALISTA - PREMIO A! DISEÑO 2020 - CATEGORÍA: IDENTIDAD",
+     /* --------------- Termina Porfolio - Toc Toc ---------------  */
+     
+     /* --------------- Porfolio - Faith and Hope ---------------  */
+     "PORTFOLIO_MODAL_FAITHANDHOPE_TITLE" => "Faith and Hope",
+     "PORTFOLIO_MODAL_FAITHANDHOPE_SUBTITLE" => "Poster for “Breath & Symbiosis” International Poster Exhibition",
+     "PORTFOLIO_MODAL_FAITHANDHOPE_CONTENT" => "
+     Fe y esperanza son dos fuerzas extraordinarias que
+     pueden ayudarnos y salvarnos en tiempos difíciles. Para esta exposición
+     sobre la lucha contra las enfermedades, es importante resaltar la
+     importancia de que los seres humanos crean en algo, sean realistas de que
+     una cura es la solución, pero sabiendo que estas fuerzas son lo que nos
+     ayudará a pasar las pruebas.",
+     /* --------------- Termina Porfolio - Faith and Hope ---------------  */
 
      /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
 )

@@ -301,8 +301,7 @@ $lang = array(
 
      /* --------------- Porfolio - IMAGINE ---------------  */
      "PORTFOLIO_MODAL_IMAGINE_TITLE" => "Imagine",
-     "PORTFOLIO_MODAL_IMAGINE_SUBTITLE" => 'Poster for “Reading and a Better Life” - 2020 “World
-     Book Day” International Public Welfare Poster Design Exhibition',
+     "PORTFOLIO_MODAL_IMAGINE_SUBTITLE" => 'Poster for “Reading and a Better Life” - 2020 “World Book Day” International Public Welfare Poster Design Exhibition',
      "PORTFOLIO_MODAL_IMAGINE_CONTENT" => "
      When we read a book, our mind travels to another world,
      history, moment and time. For the concept of the poster, the key to being
@@ -314,6 +313,62 @@ $lang = array(
      "PORTFOLIO_MODAL_IMAGINE_FINALIST" => "
      Finalist – Top 100 best posters in the world by Reader Publishing Group Co., Ltd. and the New Youth Designers Alliance.",
      /* --------------- Termina Porfolio - IMAGINE ---------------  */
+
+     /* --------------- Porfolio - Casa Viva         ---------------  */
+     "PORTFOLIO_MODAL_CASAVIVA_TITLE" => "CASA VIVA",
+     "PORTFOLIO_MODAL_CASAVIVA_SUBTITLE" => "Graphic Identity & Web Page Design for CASA VIVA - Cultural Creative Space in Mexico",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTENT" => "
+     This project was created with the intention of creating
+     a creative space that exploit’s each person’s talents and establish
+     connections between communities from different parts of the world. Located
+     in the heart of Roma Norte, Mexico City. Casa Viva offers those who visit
+     it, an space where they can learn about different cultures of the world,
+     traditions of Mexico City, local events, and native to the country, as well
+     as experiences that enrich the soul and spirit.",
+     "PORTFOLIO_MODAL_CASAVIVA_FINALIST01" => "FINALIST - PREMIO A! DISEÑO 2020 - CATEGORY: BRANDING",
+     "PORTFOLIO_MODAL_CASAVIVA_FINALIST02" => "FINALIST - PREMIO A! DISEÑO 2020 - CATEGORY: WEB PAGE",
+     "PORTFOLIO_MODAL_CASAVIVA_PROYECT" => "WEB SITE:",
+     "PORTFOLIO_MODAL_CASAVIVA_PROYECT_LIST" => "https://lacasaviva.mx",
+     "PORTFOLIO_MODAL_CASAVIVA_RRS" => "INSTAGRAM:",
+     "PORTFOLIO_MODAL_CASAVIVA_RRS_LIST" => "/lacasavivamx:",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTRIBUTOR" => "COLLABORATOR:",
+     "PORTFOLIO_MODAL_CASAVIVA_CONTRIBUTOR_LIST" => "/luiyigan",
+     /* --------------- Termina Porfolio - Casa Viva ---------------  */
+     
+     /* --------------- Porfolio - Contigo Siempre ---------------  */
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_TITLE" => "CONTIGO SIEMPRE",
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_SUBTITLE" => "Poster for “Soldados de Amor” - International Day for the prevention of Childhood Cance",
+     "PORTFOLIO_MODAL_CONTIGOSIEMPRE_CONTENT" => "
+     Childhood Cancer is one of the leading causes of death
+     among children and adolescents around the world. Always With You, is a
+     tribute to all oncologists in Mexico, for the great work they do in caring
+     for and protecting these great beings full of lifetime. The bird is a being
+     of infinite freedom and it was the inspiration to reflect all that joy and
+     will to live of children around the world.",
+     /* --------------- Termina Porfolio - Contigo Siempre ---------------  */
+     
+     /* --------------- Porfolio - Toc Toc ---------------  */
+     "PORTFOLIO_MODAL_TOCTOC_TITLE" => "toc toc",
+     "PORTFOLIO_MODAL_TOCTOC_SUBTITLE" => "Graphic Identity for toc toc Mexico- Food Brand",
+     "PORTFOLIO_MODAL_TOCTOC_CONTENT" => "
+     This project is dedicated to all young people who seek
+     to achieve their goals and dreams, but need a good dose of optimism and
+     energy. <br /><br />
+     Toc Toc was born to help these people achieve this, through quality
+     breakfasts, with a fresh, friendly and modern concept.",
+     "PORTFOLIO_MODAL_TOCTOC_FINALIST" => "FINALIST - PREMIO A! DISEÑO 2020 - CATEGORY: BRANDING",
+     /* --------------- Termina Porfolio - Toc Toc ---------------  */
+
+     /* --------------- Porfolio - Faith and Hope ---------------  */
+     "PORTFOLIO_MODAL_FAITHANDHOPE_TITLE" => "Faith and Hope",
+     "PORTFOLIO_MODAL_FAITHANDHOPE_SUBTITLE" => "Poster for “Breath & Symbiosis” International Poster Exhibition",
+     "PORTFOLIO_MODAL_FAITHANDHOPE_CONTENT" => "
+     Faith and Hope are two extraordinary forces that can
+     help and save us in difficult times. For this exhibition on the fight
+     against diseases, it is important to highlight the importance of human
+     beings believing in something, being realistic that a cure is the solution,
+     but knowing that these forces, are what will help us to pass the tests.",
+     /* --------------- Termina Porfolio - Faith and Hope ---------------  */
 
 
      /* --------------- ///////////////////// TERMINA Sección PORTFOLIO ///////////// ---------------  */
